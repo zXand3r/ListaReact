@@ -1,0 +1,43 @@
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.name {
+   color: red;
+   text-decoration: none; /* Rimuovi il sottolineato */
+}
+
+.container a:hover {
+   transition: 0.3s ease-in-out; /* Aggiungi una transizione al cambio di colore */
+   transform: scale(1.1); /* Effetto di ingrandimento al passaggio del mouse */
+   color: whitesmoke;
+}
+
+.menuButton {
+   background-color: rgb(12, 72, 226);
+   color: white;
+   border: none;
+   padding: 8px 16px;
+   cursor: pointer;
+   margin-top: 8px; /* Aggiungi margine superiore se necessario */
+   transition: background-color 0.3s ease-in-out; /* Aggiungi una transizione al cambio di colore di sfondo */
+   margin-bottom: 10px;
+}
+
+.menuButton a{
+   color: whitesmoke;
+   text-decoration: none;
+
+}
+
+.menuButton:hover {
+   background-color: rgb(12, 72, 226);; /* Cambia il colore di sfondo al passaggio del mouse */
+   transform: scale(1.1);
+   transition: transform 0.2s ease-in-out;
+}

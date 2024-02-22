@@ -32,4 +32,11 @@
 
 .titoloLista{
   margin: 2rem;
+  color: whitesmoke;
+}
+
+@media (max-width: 900px){
+  .containerLista{
+    width: 90%;
+  }
 }

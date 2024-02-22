@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ListaReact/static/css/main.cedbfcd8.css",
+    "main.js": "/ListaReact/static/js/main.28feb53b.js",
+    "static/js/453.79a67ab0.chunk.js": "/ListaReact/static/js/453.79a67ab0.chunk.js",
+    "static/media/alto-angolo-di-panini-triangolari-con-pomodori-e-insalata.jpg": "/ListaReact/static/media/alto-angolo-di-panini-triangolari-con-pomodori-e-insalata.8a1467d84520563e1acf.jpg",
+    "index.html": "/ListaReact/index.html",
+    "main.cedbfcd8.css.map": "/ListaReact/static/css/main.cedbfcd8.css.map",
+    "main.28feb53b.js.map": "/ListaReact/static/js/main.28feb53b.js.map",
+    "453.79a67ab0.chunk.js.map": "/ListaReact/static/js/453.79a67ab0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cedbfcd8.css",
+    "static/js/main.28feb53b.js"
+  ]
+}

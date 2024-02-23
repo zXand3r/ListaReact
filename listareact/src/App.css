@@ -65,6 +65,8 @@
   background-color: transparent;
   position: absolute;
   margin-left: 90%;
+  width: 10%;
+  height: 100%;
 }
 
 @media (max-width: 1150px){
@@ -90,5 +92,7 @@
 @media (max-width: 420px){
   .clearButton{
     margin-left: 90%;
+    width: 15%;
+    height: 100%;
   }
 }

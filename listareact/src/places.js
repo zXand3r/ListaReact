@@ -278,6 +278,230 @@ export const places = {
         name: "Mamo",
       },
     ],
+    Napoli: [
+      {
+        url: "https://instagram.com/bomberfoodpub",
+        menu: "https://l.instagram.com/?u=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDAFQn7Fghb4%2FKUrUVIZda5LHtiuR8RN5-Q%2Fview&e=AT2-_kVmWifUMkxyr4P4zUW4MT4JYVPpGRvM6CJBcLP56VeKjXJiLe6JYCCZ922YPmpqz-JI9qUxMCMU8yy0PiIFQ6ggaMstzJ8JRQ",
+        name: "Bomber Food",
+      },
+      {
+        url: "https://instagram.com/revolutionpubegrill",
+        menu: "https://www.revolutionpubegrill.it/menu-revolution/",
+        name: "Revolution Pub",
+      },
+      {
+        url: "https://instagram.com/12morsi",
+        menu: "https://linktr.ee/12morsilink",
+        name: "12 Morsi",
+      },
+      {
+        url: "https://instagram.com/ros.lab",
+        menu: "https://linktr.ee/rosfriedchicken",
+        name: "Ros Lab",
+      },
+      {
+        url: "https://www.instagram.com/radamo_official",
+        menu: "https://www.instagram.com/stories/highlights/17934733040054296/",
+        name: "Radamò",
+      },
+      {
+        url: "https://www.instagram.com/grifonepizzaburger",
+        menu: "https://www.grifonefood.it/",
+        name: "Grifone",
+      },
+    ],
+    San_Vitaliano: [
+      {
+        url: "https://instagram.com/britanniabyvagabondo",
+        menu: "https://www.instagram.com/stories/highlights/17892500575499718/",
+        name: "Britannia By Vagabondo",
+      },
+      {
+        url: "https://instagram.com/pico_foodpairing",
+        menu: "https://drive.google.com/file/d/17XK2h1ovnbVSqefJKCYcIC6P8P1v-pRl/view",
+        name: "Picò Food",
+      },
+      {
+        url: "https://www.instagram.com/griffinpubegrill/",
+        menu: "http://www.griffinpub.it/",
+        name: "Griffin Pub",
+      },
+      {
+        url: "https://www.instagram.com/firegrill_/",
+        menu: "https://www.instagram.com/p/CljsRiXqq0j/?img_index=1",
+        name: "Fire Grill",
+      },
+      {
+        url: "https://www.instagram.com/smokinbrothersamericanbbq/",
+        menu: "https://smokinbrothers.it/menu/",
+        name: "Smokin Brothers",
+      },
+      {
+        url: "https://www.instagram.com/ventunoventisei_2126",
+        menu: "https://ventunoventiseisrls.qromo.it/",
+        name: "Ventuno Ventisei & Drink"
+      },
+    ],
+    Pompei: [
+      {
+        url: "https://instagram.com/thedream64pompei",
+        menu: "https://www.qodeup.com/thedream64/",
+        name: "The Dream 64",
+      },
+      {
+        url: "https://instagram.com/pub27_menny",
+        menu: "https://www.bestogoo.com/view/menu.php?menuid=543&nearstone=18",
+        name: "Pub 27",
+      },
+      {
+        url: "https://www.instagram.com/daguidone/",
+        menu: "bit.ly/3KwkLhS",
+        name: "Da Guidone",
+      },
+      {
+        url: "https://instagram.com/st.troppizza",
+        menu: "menudigitale.io/sttroppizza",
+        name: "Troppizza",
+      },
+      {
+        url: "https://instagram.com/mericanopub",
+        menu: "https://www.mericanopub.it/",
+        name: "Mericano Pub",
+      },
+    ],
+    Santa_Maria_la_Carità: [
+      {
+        url: "https://instagram.com/lafattoriadinonnogildo",
+        menu: "",
+        name: "Fattoria di nonno Gildo"
+      },
+    ],
+    Poggiomarino: [
+      {
+        url: "https://instagram.com/30posti",
+        menu: "famenu.app/30-posti",
+        name: "30 Posti"
+      },
+    ],
+    Palma_Campania: [
+      {
+        url: "https://instagram.com/gnamburger_",
+        menu: "https://linktr.ee/gnamburger",
+        name: "Gnam Burger",
+      },
+    ],
+    Avellino: [
+      {
+        url: "https://instagram.com/ciaccoburger",
+        menu: "",
+        name: "Ciacco Burger",
+      },
+    ],
+    Salerno: [
+      {
+        url: "https://instagram.com/grillhousesalerno",
+        menu: "https://grillhousesalerno.it/",
+        name: "Grill House",
+      },
+      {
+        url: "https://instagram.com/mo_magn",
+        menu: "",
+        name: "Mo Magn",
+      },
+      {
+        url: "https://www.instagram.com/ammoreebrace/",
+        menu: "https://www.instagram.com/stories/highlights/18042766681554578/",
+        name: "Ammore&Brace",
+      },
+      {
+        url: "https://www.instagram.com/osteria_porcavacca",
+        menu: "",
+        name: "Osteria Porca vacca",
+      },
+      {
+        url: "https://www.instagram.com/yanes_it",
+        menu: "https://www.yanes.it/",
+        name: "Yanes",
+      },
+    ],
+    Ercolano: [
+      {
+        url: "https://instagram.com/theshirepub_",
+        menu: "",
+        name: "The Shire Pub",
+      },
+    ],
+    Madonna_Arco: [
+      {
+        url: "https://instagram.com/chopspub",
+        menu: "https://www.instagram.com/stories/highlights/17965062269078545/",
+        name: "Chop's Pub"
+      },
+    ],
+    Angri: [
+      {
+        url: "https://instagram.com/miezesounds_hamburgheria",
+        menu: "https://www.menudigitale.io/mmiezesounds",
+        name: "Mmiez E Sound",
+      },
+      {
+        url: "https://www.instagram.com/oine_drink.food_",
+        menu: "https://www.instagram.com/stories/highlights/18032042968646972/",
+        name: "Oine",
+      },
+    ],
+    Sarno: [
+      {
+        url: "https://instagram.com/offlinecoffeepub",
+        menu: "https://www.instagram.com/stories/highlights/18009973048680197/",
+        name: "Offline Pub"
+      },
+      {
+        url: "https://www.instagram.com/quantobastaenoteca/",
+        menu: "https://www.instagram.com/stories/highlights/18151733452259819/",
+        name: "Quanto Basta Enoteca"
+      },
+    ],
+    Ottaviano: [
+      {
+        url: "https://www.instagram.com/viking_braceria_ottaviano/",
+        menu: "https://www.vikingbraceria.it/",
+        name: "Viking Pub",
+      },
+      {
+        url: "https://instagram.com/terrazzasanmichele",
+        menu: "",
+        name: "Terrazza San Michele",
+      },
+    ],
+    Gragnano: [
+      {
+        url: "https://www.instagram.com/pizzeriamascolodal1995",
+        menu: "https://www.pizzeriamascolo.it/menu-2020",
+        name: "Pizzeria Mascolo"
+      },
+    ],
+    San_Valentino_Torio: [
+      {
+        url: "https://www.instagram.com/ristorante_addo_nonn/",
+        menu: "",
+        name: "Addò nonn"
+      },
+    ],
+    Striano: [
+      {
+        url: "https://www.instagram.com/manebaindustries/",
+        name: "Maneba Industries",
+        menu: "https://linktr.ee/maneba",
+      },
+    ],
+    Caserta: [
+      {
+        url: "https://www.instagram.com/darbottarolocucinaromana/",
+        name: "Dar Bottarolo",
+        menu: "https://darbottarolo.it/"
+      }
+    ]
   },
   Drink: {
     Pomigliano: [{
@@ -328,6 +552,13 @@ export const places = {
         name: "Santa Monica",
       },
     ],
+    Pompei: [
+      {
+        url: "https://www.instagram.com/vitiumloungebar/",
+        menu: "we.tl/t-xuIXSmUFji",
+        name: "Vitium",
+      },
+    ]
   },
   Dolci: {
     Pomigliano: [
@@ -342,6 +573,13 @@ export const places = {
       "https://instagram.com/the_george_best?igshid=YmMyMTA2M2Y=",
       // altri pub di Torre del Greco
     ],
+    Ottaviano: [
+      {
+        url: "https://www.instagram.com/sessa1930/",
+        menu: "https://sessa1930.com/",
+        name: "Sessa1930",
+      },
+    ]
     // aggiungi altri pub
   },
 };

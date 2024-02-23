@@ -30,6 +30,8 @@
    margin-top: 8px; /* Aggiungi margine superiore se necessario */
    transition: background-color 0.3s ease-in-out; /* Aggiungi una transizione al cambio di colore di sfondo */
    margin-bottom: 10px;
+   height: 100%;
+   font-size: 20px;
 }
 
 .menuButton a{

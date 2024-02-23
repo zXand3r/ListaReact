@@ -19,6 +19,8 @@
 
 .mainContainer h1{
   margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
 }
 
 .containerLista{
@@ -27,7 +29,10 @@
   text-align: center;
   border-radius: 60px;
   backdrop-filter: blur(20px);
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .titoloLista{
@@ -35,8 +40,55 @@
   color: whitesmoke;
 }
 
-@media (max-width: 900px){
+.searchBar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 500px; /* Larghezza massima della searchBar */
+  margin: 20px auto; /* Margine per centrare la searchBar */
+}
+
+.searchBar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.searchBar input[type="text"]:focus {
+  border-color: #007bff; /* Colore del bordo quando in focus */
+}
+
+.clearButton{
+  background-color: transparent;
+  position: absolute;
+  margin-left: 90%;
+}
+
+@media (max-width: 1150px){
   .containerLista{
-    width: 90%;
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px){
+  .searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchBar, .searchBar input[type="text"]  {
+    width: 75%;
+  }
+  .clearButton{
+    margin-left: 65%;
+  }
+}
+
+@media (max-width: 420px){
+  .clearButton{
+    margin-left: 90%;
   }
 }

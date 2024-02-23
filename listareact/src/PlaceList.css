@@ -11,4 +11,12 @@
 .list h2{
    font-weight: bolder;
    color: whitesmoke;
+   width: 100%;
+   overflow: overlay;
+}
+
+@media (max-width: 600px){
+   .list h2{
+      font-size: 1.1em;
+   }
 }

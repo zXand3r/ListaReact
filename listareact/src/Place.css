@@ -11,6 +11,7 @@
 .name {
    color: red;
    text-decoration: none; /* Rimuovi il sottolineato */
+   width: 100%;
 }
 
 .container a:hover {
@@ -23,6 +24,7 @@
    background-color: rgb(12, 72, 226);
    color: white;
    border: none;
+   border-radius: 20px;
    padding: 8px 16px;
    cursor: pointer;
    margin-top: 8px; /* Aggiungi margine superiore se necessario */
@@ -40,4 +42,10 @@
    background-color: rgb(12, 72, 226);; /* Cambia il colore di sfondo al passaggio del mouse */
    transform: scale(1.1);
    transition: transform 0.2s ease-in-out;
+}
+
+@media (max-width: 600px){
+   .name{
+      font-size: 1em;
+   }
 }

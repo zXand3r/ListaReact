@@ -368,6 +368,11 @@ export const places = {
         menu: "https://www.mericanopub.it/",
         name: "Mericano Pub",
       },
+      {
+        url: "https://instagram.com/malatiapompei",
+        menu: "",
+        name: "Malatia",
+      },
     ],
     Santa_Maria_la_Carità: [
       {
@@ -500,6 +505,13 @@ export const places = {
         url: "https://www.instagram.com/darbottarolocucinaromana/",
         name: "Dar Bottarolo",
         menu: "https://darbottarolo.it/",
+      },
+    ],
+    Boscotrecase: [
+      {
+        url: "https://www.instagram.com/prisco_pizza_spirits/",
+        name: "Prisco Pizza",
+        menu: "",
       },
     ],
   },

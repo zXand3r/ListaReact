@@ -14,11 +14,11 @@ export const places = {
       {
         url: "https://instagram.com/dropbeerandfoodpomigliano",
         menu: "https://bevoaldrop.it/",
-        name: "Drop Beer&Food"
+        name: "Drop Beer&Food",
       },
       {
         url: "https://instagram.com/paninoteca_soldout",
-        name: "Paninoteca SoldOut"
+        name: "Paninoteca SoldOut",
       },
       {
         url: "https://instagram.com/upstairpomigliano",
@@ -71,7 +71,7 @@ export const places = {
       {
         url: "https://instagram.com/eatvesuvio_",
         menu: "https://www.instagram.com/stories/highlights/17843530502527725/",
-        name: "Eat Vesuvio"
+        name: "Eat Vesuvio",
       },
       {
         url: "https://instagram.com/cuocomatto10",
@@ -100,26 +100,26 @@ export const places = {
       },
     ],
     Torre_Annunziata: [
-    {
-      url:"https://instagram.com/ilcrancio",
-      menu: "",
-      name: "Il Crancio",
-    },
-    {
-      url:"https://www.instagram.com/gikatorreannunziata",
-      menu: "https://superb2018--oldsuperb.s3.amazonaws.com/menu%CC%80%20Gika%20Torre_web-eaf6af18-c5c0-5010-82fc-1d50bdbe24e5.pdf",
-      name: "Gika Torre Annunziata",
-    },
-    {
-      url:"https://www.instagram.com/craft27_beer_and_food/",
-      menu: "https://www.bestogoo.com/view/menu.php?menuid=582&nearstone=3",
-      name: "Craft27 Beer&Food",
-    },
-    {
-      url:"https://instagram.com/torrebirraia",
-      menu: "",
-      name: "Torre Birraia",
-    },
+      {
+        url: "https://instagram.com/ilcrancio",
+        menu: "",
+        name: "Il Crancio",
+      },
+      {
+        url: "https://www.instagram.com/gikatorreannunziata",
+        menu: "https://superb2018--oldsuperb.s3.amazonaws.com/menu%CC%80%20Gika%20Torre_web-eaf6af18-c5c0-5010-82fc-1d50bdbe24e5.pdf",
+        name: "Gika Torre Annunziata",
+      },
+      {
+        url: "https://www.instagram.com/craft27_beer_and_food/",
+        menu: "https://www.bestogoo.com/view/menu.php?menuid=582&nearstone=3",
+        name: "Craft27 Beer&Food",
+      },
+      {
+        url: "https://instagram.com/torrebirraia",
+        menu: "",
+        name: "Torre Birraia",
+      },
     ],
     Torre_Del_Greco: [
       {
@@ -158,7 +158,7 @@ export const places = {
         name: "CasaKBirr",
       },
     ],
-    Sant_Anastasia:[
+    Sant_Anastasia: [
       {
         url: "https://instagram.com/squisitofood",
         menu: "",
@@ -339,7 +339,7 @@ export const places = {
       {
         url: "https://www.instagram.com/ventunoventisei_2126",
         menu: "https://ventunoventiseisrls.qromo.it/",
-        name: "Ventuno Ventisei & Drink"
+        name: "Ventuno Ventisei & Drink",
       },
     ],
     Pompei: [
@@ -373,14 +373,14 @@ export const places = {
       {
         url: "https://instagram.com/lafattoriadinonnogildo",
         menu: "",
-        name: "Fattoria di nonno Gildo"
+        name: "Fattoria di nonno Gildo",
       },
     ],
     Poggiomarino: [
       {
         url: "https://instagram.com/30posti",
         menu: "famenu.app/30-posti",
-        name: "30 Posti"
+        name: "30 Posti",
       },
     ],
     Palma_Campania: [
@@ -435,7 +435,7 @@ export const places = {
       {
         url: "https://instagram.com/chopspub",
         menu: "https://www.instagram.com/stories/highlights/17965062269078545/",
-        name: "Chop's Pub"
+        name: "Chop's Pub",
       },
     ],
     Angri: [
@@ -454,12 +454,12 @@ export const places = {
       {
         url: "https://instagram.com/offlinecoffeepub",
         menu: "https://www.instagram.com/stories/highlights/18009973048680197/",
-        name: "Offline Pub"
+        name: "Offline Pub",
       },
       {
         url: "https://www.instagram.com/quantobastaenoteca/",
         menu: "https://www.instagram.com/stories/highlights/18151733452259819/",
-        name: "Quanto Basta Enoteca"
+        name: "Quanto Basta Enoteca",
       },
     ],
     Ottaviano: [
@@ -478,14 +478,14 @@ export const places = {
       {
         url: "https://www.instagram.com/pizzeriamascolodal1995",
         menu: "https://www.pizzeriamascolo.it/menu-2020",
-        name: "Pizzeria Mascolo"
+        name: "Pizzeria Mascolo",
       },
     ],
     San_Valentino_Torio: [
       {
         url: "https://www.instagram.com/ristorante_addo_nonn/",
         menu: "",
-        name: "Addò nonn"
+        name: "Addò nonn",
       },
     ],
     Striano: [
@@ -499,37 +499,40 @@ export const places = {
       {
         url: "https://www.instagram.com/darbottarolocucinaromana/",
         name: "Dar Bottarolo",
-        menu: "https://darbottarolo.it/"
-      }
-    ]
+        menu: "https://darbottarolo.it/",
+      },
+    ],
   },
   Drink: {
-    Pomigliano: [{
-      url:"https://www.instagram.com/officina_alcolica_pomigliano/",
-      name: "Officina Alcolica"
-    },
-    {
-      url:"https://www.instagram.com/hugo_hubriacheria/",
-      name: "Hugo Hubriacheria"
-    },
-    {
-      url:"https://instagram.com/mabiro_pomigliano",
-      name: "Mabiro"
-    },
-    {
-      url:"https://instagram.com/mabe.loungebar",
-      name: "Mabe Lounge Bar"
-    },
-    {
-      url:"https://instagram.com/mistergranita_official",
-      name: "Mister Granita"
-    },
-      // altri posti Drink di Pomigliano
-  ],
+    Pomigliano: [
+      {
+        url: "https://www.instagram.com/officina_alcolica_pomigliano/",
+        name: "Officina Alcolica",
+      },
+      {
+        url: "https://www.instagram.com/hugo_hubriacheria/",
+        name: "Hugo Hubriacheria",
+        menu: "www.hugohub.it",
+      },
+      {
+        url: "https://instagram.com/mabiro_pomigliano",
+        name: "Mabiro",
+        menu: "https://mabiro.it/",
+      },
+      {
+        url: "https://instagram.com/mabe.loungebar",
+        name: "Mabe Lounge Bar",
+        menu: "https://www.instagram.com/stories/highlights/17978214509348808/",
+      },
+      {
+        url: "https://instagram.com/mistergranita_official",
+        name: "Mister Granita",
+      },
+    ],
     Torre_Del_Greco: [
       {
         url: "https://www.instagram.com/_evergreen.cafe_/",
-        menu: "",
+        menu: "www.evergreenmenu.it",
         name: "Evergreen Cafè",
       },
       {
@@ -538,11 +541,11 @@ export const places = {
         name: "Arizona Bistrot",
       },
     ],
-    Sant_Anastasia:[
+    Sant_Anastasia: [
       {
         url: "https://instagram.com/hoplab_",
-        menu: "",
-        name: "",
+        menu: "https://hoplab.eu/",
+        name: "Hop Lab",
       },
     ],
     Scafati: [
@@ -558,7 +561,7 @@ export const places = {
         menu: "we.tl/t-xuIXSmUFji",
         name: "Vitium",
       },
-    ]
+    ],
   },
   Dolci: {
     Pomigliano: [
@@ -568,18 +571,13 @@ export const places = {
         name: "Bunny Pomigliano",
       },
     ],
-    TorreDelGreco: [
-      "https://instagram.com/paninoteca_damanue?igshid=YmMyMTA2M2Y=",
-      "https://instagram.com/the_george_best?igshid=YmMyMTA2M2Y=",
-      // altri pub di Torre del Greco
-    ],
     Ottaviano: [
       {
         url: "https://www.instagram.com/sessa1930/",
         menu: "https://sessa1930.com/",
         name: "Sessa1930",
       },
-    ]
+    ],
     // aggiungi altri pub
   },
 };

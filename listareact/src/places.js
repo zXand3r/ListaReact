@@ -428,6 +428,16 @@ export const places = {
         menu: "https://www.yanes.it/",
         name: "Yanes",
       },
+      {
+        url: "https://www.instagram.com/black_roses_pub_salerno/",
+        menu: "",
+        name: "Black Roses Pub",
+      },
+      {
+        url: "https://www.instagram.com/galleon_pub/",
+        menu: "",
+        name: "Galleon Pub",
+      },
     ],
     Ercolano: [
       {
@@ -491,6 +501,11 @@ export const places = {
         url: "https://www.instagram.com/ristorante_addo_nonn/",
         menu: "",
         name: "Addò nonn",
+      },
+      {
+        url: "https://www.instagram.com/7.9.6_sapori_ed_eccellenze/",
+        menu: "famenu.app/7-9-6-sapori-ed-eccellenze",
+        name: "796 Sapori ed eccellenze",
       },
     ],
     Striano: [

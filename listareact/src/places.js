@@ -102,7 +102,7 @@ export const places = {
     Torre_Annunziata: [
       {
         url: "https://instagram.com/ilcrancio",
-        menu: "",
+        menu: "https://cranciodigika.superbexperience.com/reserve/experience",
         name: "Il Crancio",
       },
       {
@@ -149,7 +149,7 @@ export const places = {
       },
       {
         url: "https://www.instagram.com/braceria_raffinatos_/",
-        menu: "",
+        menu: "https://alfonsino.delivery/partner/1739/raffinatos/prodotti?utm_source=google&utm_medium=cpc&utm_campaign=clienti_pmax_cluster_b&utm_id=17953203805&gad_source=1&gclid=Cj0KCQjwwMqvBhCtARIsAIXsZpZx8177lIvMmboCLhsH88DosxkbU50mS8GlGIxaE-tSTyComVk448oaAvFiEALw_wcB",
         name: "Braceria Raffinatos",
       },
       {

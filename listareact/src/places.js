@@ -157,6 +157,11 @@ export const places = {
         menu: "",
         name: "CasaKBirr",
       },
+      {
+        url: "https://www.instagram.com/icarnaloni/",
+        menu: "https://icarnaloni.it/",
+        name: "I Carnaloni",
+      },
     ],
     Sant_Anastasia: [
       {
@@ -597,6 +602,13 @@ export const places = {
         menu: "",
         name: "Bunny Pomigliano",
       },
+    ],
+    Somma_Vesuviana: [
+      {
+        url: "https://www.instagram.com/il_funghetto/",
+        menu: "",
+        name: "Il Funghetto"
+      }
     ],
     Ottaviano: [
       {

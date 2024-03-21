@@ -1,6 +1,6 @@
 import "./Place.css";
 
-function isNewPlace(dateAdded) {
+export function isNewPlace(dateAdded) {
   if (!dateAdded) return false; // Se la data di aggiunta non è disponibile, il posto non è nuovo
   const sevenDaysAgo = new Date();
   sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7); // Imposta la data a 7 giorni fa

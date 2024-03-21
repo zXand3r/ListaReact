@@ -158,6 +158,11 @@ export const places = {
         name: "CasaKBirr",
       },
       {
+        url: "https://www.instagram.com/20morsipaninoteca/",
+        menu: "https://www.instagram.com/stories/highlights/18004435418171907/",
+        name: "20 Morsi",
+      },
+      {
         url: "https://www.instagram.com/icarnaloni/",
         menu: "https://icarnaloni.it/",
         name: "I Carnaloni",
@@ -200,6 +205,11 @@ export const places = {
         url: "https://instagram.com/mc_capon_",
         menu: "",
         name: "MC Capon",
+      },
+      {
+        url: "https://www.instagram.com/misterpollocmare/",
+        menu: "https://www.instagram.com/stories/highlights/17985393289634927/",
+        name: "Mr Pollo",
       },
     ],
     San_Marzano: [
@@ -314,6 +324,11 @@ export const places = {
         menu: "https://www.grifonefood.it/",
         name: "Grifone",
       },
+      {
+        url: "https://www.instagram.com/blackwoodnapoli/",
+        menu: "www.leggimenu.it/menu/blackwoodpetrarca",
+        name: "Black Wood",
+      },
     ],
     San_Vitaliano: [
       {
@@ -378,6 +393,11 @@ export const places = {
         menu: "",
         name: "Malatia",
       },
+      {
+        url: "https://www.instagram.com/artedelkebab/",
+        menu: "https://dishcovery.menu/app/restaurants/9b3432b4e539fc863a67850bb7c983fb/a-la-carte-menu",
+        name: "Arte del kebab",
+      },
     ],
     Santa_Maria_la_Carità: [
       {
@@ -391,6 +411,11 @@ export const places = {
         url: "https://instagram.com/30posti",
         menu: "famenu.app/30-posti",
         name: "30 Posti",
+      },
+      {
+        url: "https://www.instagram.com/cescoburger/",
+        menu: "bit.ly/appcescoburger",
+        name: "Cesco burger",
       },
     ],
     Palma_Campania: [
@@ -449,6 +474,11 @@ export const places = {
         url: "https://instagram.com/theshirepub_",
         menu: "",
         name: "The Shire Pub",
+      },
+      {
+        url: "https://instagram.com/paninotecamatomato",
+        menu: "",
+        name: "Paninoteca mato matò",
       },
     ],
     Madonna_Arco: [

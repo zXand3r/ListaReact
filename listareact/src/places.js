@@ -161,6 +161,7 @@ export const places = {
         url: "https://www.instagram.com/20morsipaninoteca/",
         menu: "https://www.instagram.com/stories/highlights/18004435418171907/",
         name: "20 Morsi",
+        dateAdded: "2024-03-21"
       },
       {
         url: "https://www.instagram.com/icarnaloni/",
@@ -210,6 +211,7 @@ export const places = {
         url: "https://www.instagram.com/misterpollocmare/",
         menu: "https://www.instagram.com/stories/highlights/17985393289634927/",
         name: "Mr Pollo",
+        dateAdded: "2024-03-21",
       },
     ],
     San_Marzano: [
@@ -328,6 +330,7 @@ export const places = {
         url: "https://www.instagram.com/blackwoodnapoli/",
         menu: "www.leggimenu.it/menu/blackwoodpetrarca",
         name: "Black Wood",
+        dateAdded: "2024-03-21",
       },
     ],
     San_Vitaliano: [
@@ -397,6 +400,7 @@ export const places = {
         url: "https://www.instagram.com/artedelkebab/",
         menu: "https://dishcovery.menu/app/restaurants/9b3432b4e539fc863a67850bb7c983fb/a-la-carte-menu",
         name: "Arte del kebab",
+        dateAdded: "2024-03-21",
       },
     ],
     Santa_Maria_la_Carità: [
@@ -416,6 +420,7 @@ export const places = {
         url: "https://www.instagram.com/cescoburger/",
         menu: "bit.ly/appcescoburger",
         name: "Cesco burger",
+        dateAdded:"2024-03-21",
       },
     ],
     Palma_Campania: [
@@ -479,6 +484,7 @@ export const places = {
         url: "https://instagram.com/paninotecamatomato",
         menu: "",
         name: "Paninoteca mato matò",
+        dateAdded: "2024-03-21",
       },
     ],
     Madonna_Arco: [

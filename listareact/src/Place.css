@@ -6,12 +6,25 @@
    height: 100%;
    flex-direction: column;
    gap: 0.5rem;
+   position: relative;
 }
+
+.newLabel {
+   position: absolute; /* Posizione assoluta per sovrapporre la scritta "new" */
+   top: 0; /* Posiziona la scritta in alto */
+   right: 0; /* Posiziona la scritta a destra */
+   background-color: red; /* Colore di sfondo per la scritta "new" */
+   color: white; /* Colore del testo per la scritta "new" */
+   padding: 3px 6px; /* Padding per la scritta "new" */
+   font-size: 18px; /* Dimensione del carattere per la scritta "new" */
+   border-radius: 3px; /* Bordi arrotondati per la scritta "new" */
+ }
 
 .name {
    color: red;
    text-decoration: none; /* Rimuovi il sottolineato */
    width: 100%;
+   padding: 8px;
 }
 
 .container a:hover {

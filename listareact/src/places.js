@@ -62,7 +62,7 @@ export const places = {
       },
       {
         url: "https://www.instagram.com/dublinsquarepomigliano/",
-        menu: "www.dublinsquare.it",
+        menu: "https://dublinsquare.it/",
         name: "Dublin Square",
         dateAdded: "2024-03-22",
       },

@@ -60,7 +60,12 @@ export const places = {
         menu: "https://alfonsino.delivery/partner/3078/da-stefano/prodotti",
         name: "Da Stefano",
       },
-      // altri posti di Pomigliano
+      {
+        url: "https://www.instagram.com/dublinsquarepomigliano/",
+        menu: "www.dublinsquare.it",
+        name: "Dublin Square",
+        dateAdded: "2024-03-22",
+      },
     ],
     Somma_Vesuviana: [
       {

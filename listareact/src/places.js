@@ -337,6 +337,12 @@ export const places = {
         name: "Black Wood",
         dateAdded: "2024-03-21",
       },
+      {
+        url: "https://www.instagram.com/burger.91/",
+        menu: "https://www.instagram.com/stories/highlights/18162804754217287/",
+        name: "Burger91",
+        dateAdded: "2024-03-25",
+      },
     ],
     San_Vitaliano: [
       {
@@ -575,6 +581,14 @@ export const places = {
         menu: "",
       },
     ],
+    Giugliano_Campania: [
+      {
+        url: "https://www.instagram.com/putecaburger/",
+        name: "Puteca Burger",
+        menu: "http://www.putecaburger.it/",
+        dateAdded: "2024-03-25"
+      }
+    ]
   },
   Drink: {
     Pomigliano: [
@@ -612,6 +626,12 @@ export const places = {
         url: "https://instagram.com/arizonabistrot",
         menu: "",
         name: "Arizona Bistrot",
+      },
+      {
+        url: "https://www.instagram.com/albucococktailbar/",
+        menu: "https://www.instagram.com/stories/highlights/18021778534866127/",
+        name: "Albuco",
+        dateAdded: "2024-03-25"
       },
     ],
     Sant_Anastasia: [

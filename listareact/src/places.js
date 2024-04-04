@@ -678,6 +678,27 @@ export const places = {
         name: "Sessa1930",
       },
     ],
-    // aggiungi altri pub
+    Poggiomarino: [
+      {
+        url: "https://www.instagram.com/cornetteriailbaffo/",
+        name: "Conetteria il Baffo",
+        dateAdded: "2024-04-05"
+      },
+    ],
+    Terzigno: [
+      {
+        url: "https://www.instagram.com/grafferiacioco1/",
+        dateAdded: "2024-04-05",
+        name: "Grafferia Cioco",
+      }
+    ],
+    San_Marzano: [
+      {
+        url: "https://www.instagram.com/daguly__/",
+        dateAdded: "2024-04-05",
+        name: "Da Guly",
+        menu: "bit.ly/3uBxr1f",
+      }
+    ]
   },
 };

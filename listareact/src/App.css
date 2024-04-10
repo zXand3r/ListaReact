@@ -70,17 +70,21 @@
 }
 
 .notification{
+  position:sticky;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   color: whitesmoke;
   width: 50%;
   justify-content: center;
-  align-items: center;
+  left: 40%;
 }
 
 @media (max-width: 1150px){
   .containerLista{
     width: 95%;
+  }
+  .notification{
+    left: 35%;
   }
 }
 
@@ -96,6 +100,9 @@
   .clearButton{
     margin-left: 65%;
   }
+  .notification{
+    left: 0;
+  }
 }
 
 @media (max-width: 420px){
@@ -103,5 +110,8 @@
     margin-left: 90%;
     width: 15%;
     height: 100%;
+  }
+  .notification{
+    left: 0;
   }
 }

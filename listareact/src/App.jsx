@@ -35,13 +35,13 @@ function App() {
   return (
     <div className="mainContainer">
       {newPlacesAdded.length > 0 && (
-        <div className="notification">
+        <ul className="notification">
           {newPlacesAdded.map((newPlace, index) => (
-            <span key={index}>
-              {" - "}{newPlace.count} nuovi posti aggiunti a {newPlace.city}{" -"}
-            </span>
+            <li key={index}>
+              {newPlace.count} nuovi posti aggiunti a {newPlace.city}
+            </li>
           ))}
-        </div>
+        </ul>
       )}
       <div className="searchBar">
         <input

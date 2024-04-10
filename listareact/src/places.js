@@ -440,6 +440,12 @@ export const places = {
         menu: "https://linktr.ee/gnamburger",
         name: "Gnam Burger",
       },
+      {
+        url: "https://www.instagram.com/pizzeriajollydicatapanogennaro/",
+        menu: "",
+        name: "Pizzeria Jolly",
+        dateAdded: "2024-04-10",
+      },
     ],
     Avellino: [
       {
@@ -540,6 +546,12 @@ export const places = {
         menu: "",
         name: "Terrazza San Michele",
       },
+      {
+        url: "https://www.instagram.com/villagiovanna_ottaviano/",
+        menu: "https://www.renatasitko.it/",
+        name: "Villa Giovanna",
+        dateAdded: "2024-04-10",
+      },
     ],
     Gragnano: [
       {
@@ -572,6 +584,12 @@ export const places = {
         url: "https://www.instagram.com/darbottarolocucinaromana/",
         name: "Dar Bottarolo",
         menu: "https://darbottarolo.it/",
+      },
+      {
+        url: "https://www.instagram.com/mamaburgerpassion/",
+        name: "Mama Burger Passion",
+        menu: "",
+        dateAdded: "2024-04-10",
       },
     ],
     Boscotrecase: [
@@ -655,6 +673,14 @@ export const places = {
         name: "Vitium",
       },
     ],
+    Castellammare: [
+      {
+        url: "https://www.instagram.com/drinkiamo_castellammare/",
+        menu: "",
+        name: "Drink Iamo",
+        dateAdded: "2024-04-10",
+      }
+    ]
   },
   Dolci: {
     Pomigliano: [

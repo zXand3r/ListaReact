@@ -703,6 +703,12 @@ export const places = {
         menu: "https://sessa1930.com/",
         name: "Sessa1930",
       },
+      {
+        url:"https://www.instagram.com/reserva_cocktailandmore/",
+        menu: "",
+        name: "Reserva Cocktail & More",
+        dateAdded: "2024-04-11"
+      }
     ],
     Poggiomarino: [
       {
@@ -724,6 +730,13 @@ export const places = {
         dateAdded: "2024-04-05",
         name: "Da Guly",
         menu: "bit.ly/3uBxr1f",
+      }
+    ],
+    Nola: [
+      {
+        url: "https://www.instagram.com/nouveauelementididesign/",
+        dateAdded: "2024-04-11",
+        name: "Nouveauelementi Design",
       }
     ]
   },

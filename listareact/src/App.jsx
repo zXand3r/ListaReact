@@ -17,7 +17,7 @@ function App() {
           return isNewPlace(place.dateAdded);
         });
         if (newCityPlaces.length > 0) {
-          newPlaces.push({ city, count: newCityPlaces.length });
+          newPlaces.push({ city, count: newCityPlaces.length, category: category });
         }
       }
     }
@@ -38,7 +38,7 @@ function App() {
         <ul className="notification">
           {newPlacesAdded.map((newPlace, index) => (
             <li key={index}>
-              {newPlace.count} nuovi posti aggiunti a {newPlace.city}
+              {newPlace.count} nuovi posti aggiunti a {newPlace.city} - <strong>{newPlace.category}</strong>
             </li>
           ))}
         </ul>

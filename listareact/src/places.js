@@ -299,6 +299,12 @@ export const places = {
         menu: "https://linktr.ee/mamo.nola",
         name: "Mamo",
       },
+      {
+        url: "https://www.instagram.com/zeroundicipizzeria/",
+        name: "Zero Undici",
+        dateAdded: "2024-04-12",
+        menu: "uqr.to/1q9eg"
+      }
     ],
     Napoli: [
       {
@@ -343,6 +349,12 @@ export const places = {
         name: "Burger91",
         dateAdded: "2024-03-25",
       },
+      {
+        url: "https://www.instagram.com/biergarten_pub/",
+        name: "Biergarten",
+        dateAdded: "2024-04-12",
+        menu: "www.bestogoo.com/view/menu.php?menuid=673"
+      }
     ],
     San_Vitaliano: [
       {

@@ -118,3 +118,31 @@
     left: 0;
   }
 }
+
+/* Nascondi la scrollbar verticale e orizzontale */
+::-webkit-scrollbar {
+  width: 5px; /* Larghezza della scrollbar */
+  height: 5px; /* Altezza della scrollbar */
+}
+::-webkit-scrollbar:hover {
+  width: 10px; /* Larghezza della scrollbar */
+  height: 5px; /* Altezza della scrollbar */
+}
+
+/* Track della scrollbar */
+::-webkit-scrollbar-track {
+  background: transparent; /* Colore dello sfondo della scrollbar */
+}
+
+/* Thumb della scrollbar (la parte trascinabile) */
+::-webkit-scrollbar-thumb {
+  background: #007bff; /* Colore del thumb */
+  border-radius: 10px; /* Border radius del thumb */
+  transition: width 0.3s; /* Aggiungi una transizione per un effetto di smoothness */
+}
+
+/* Cambia il colore del thumb quando si passa sopra con il mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #0056b3; /* Colore del thumb al passaggio del mouse */
+  width: 10px; /* Larghezza aumentata del thumb al passaggio del mouse */
+}

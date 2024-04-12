@@ -2,11 +2,11 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Place.css';
 
 export function isNewPlace(dateAdded) {
-  if (!dateAdded) return false; // Se la data di aggiunta non è disponibile, il posto non è nuovo
+  if (!dateAdded) return false;
   const sevenDaysAgo = new Date();
-  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7); // Imposta la data a 7 giorni fa
+  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
   const addedDate = new Date(dateAdded);
-  return addedDate > sevenDaysAgo; // Restituisce true se il posto è stato aggiunto entro 7 giorni
+  return addedDate > sevenDaysAgo;
 }
 
 export function Place({ place }) {
@@ -22,20 +22,21 @@ export function Place({ place }) {
       {
         root: null,
         rootMargin: '0px',
-        threshold: 0.9, // Trigger when 10% of the element is visible
+        threshold: 0.9,
       }
     );
 
-    if (placeRef.current) {
-      observer.observe(placeRef.current);
+    const currentRef = placeRef.current; // Memorizza il valore di placeRef.current
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (placeRef.current) {
-        observer.unobserve(placeRef.current);
+      if (currentRef) { // Utilizza la variabile locale invece di placeRef.current
+        observer.unobserve(currentRef);
       }
     };
-  }, []);
+  }, [placeRef]); // Aggiungi placeRef come dipendenza per evitare il warning
 
   return (
     <li

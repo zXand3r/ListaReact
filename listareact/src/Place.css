@@ -7,6 +7,19 @@
    flex-direction: column;
    gap: 0.5rem;
    position: relative;
+   opacity: 0; /* Impostiamo l'opacità a 0 inizialmente */
+   transform: translateX(-20px); /* Spostiamo l'elemento verso sinistra in modo che appaia da sinistra */
+   transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out; /* Aggiungiamo una transizione per l'opacità e la trasformazione */
+}
+
+.container.fadeIn {
+  opacity: 1; /* Al passaggio della classe fadeIn, impostiamo l'opacità a 1 */
+  transform: translateX(0); /* Al passaggio della classe fadeIn, riportiamo l'elemento alla posizione originale */
+}
+
+.container.fadeOut {
+  opacity: 0; /* Al passaggio della classe fadeOut, impostiamo l'opacità a 0 */
+  transform: translateX(20px); /* Spostiamo l'elemento verso destra in modo che scompaia verso destra */
 }
 
 .newLabel {

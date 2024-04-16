@@ -51,7 +51,7 @@ export const places = {
         name: "Soul",
       },
       {
-        url: "https://instagram.com/snap_fastfood_gourmet",
+        url: "https://www.instagram.com/snap_focacceriadiquartiere/",
         menu: "https://www.snapgourmet.it/file/menu.pdf",
         name: "Snap Fast Food",
       },
@@ -103,6 +103,12 @@ export const places = {
         menu: "",
         name: "Cillo Experience",
       },
+      {
+        url: "https://www.instagram.com/operhaclub/",
+        menu: "https://www.operhaclub.it/menu/",
+        name: "Operhaclub",
+        dateAdded: "2024-04-16",
+      }
     ],
     Torre_Annunziata: [
       {
@@ -328,11 +334,6 @@ export const places = {
         name: "Ros Lab",
       },
       {
-        url: "https://www.instagram.com/radamo_official",
-        menu: "https://www.instagram.com/stories/highlights/17934733040054296/",
-        name: "Radamò",
-      },
-      {
         url: "https://www.instagram.com/grifonepizzaburger",
         menu: "https://www.grifonefood.it/",
         name: "Grifone",
@@ -354,6 +355,11 @@ export const places = {
         name: "Biergarten",
         dateAdded: "2024-04-12",
         menu: "www.bestogoo.com/view/menu.php?menuid=673"
+      },
+      {
+        url: "https://www.instagram.com/maturopizzeria/",
+        name: "Maturo",
+        dateAdded: "2024-04-16",
       }
     ],
     San_Vitaliano: [
@@ -438,6 +444,11 @@ export const places = {
         url: "https://instagram.com/30posti",
         menu: "famenu.app/30-posti",
         name: "30 Posti",
+      },
+      {
+        url: "https://www.instagram.com/radamo_official",
+        menu: "https://www.instagram.com/stories/highlights/17934733040054296/",
+        name: "Radamò",
       },
       {
         url: "https://www.instagram.com/cescoburger/",
@@ -603,6 +614,12 @@ export const places = {
         menu: "",
         dateAdded: "2024-04-10",
       },
+      {
+        url: "https://www.instagram.com/kingsroadpubegrill/",
+        name: "Kings Road Pub",
+        menu: "https://www.localismart.it/kingsroadpubegrill/",
+        dateAdded: "2024-04-16",
+      }
     ],
     Boscotrecase: [
       {
@@ -617,6 +634,18 @@ export const places = {
         name: "Puteca Burger",
         menu: "http://www.putecaburger.it/",
         dateAdded: "2024-03-25"
+      },
+      {
+        url: "https://www.instagram.com/osapurit_steakhouse/",
+        name: "Osapurit Steakhouse",
+        menu: "https://www.scoutmenu.it/dettagli-locale.php?id=1110",
+        dateAdded: "2024-04-16"
+      },
+      {
+        url: "https://www.instagram.com/osapurit_burgerstore/",
+        name: "Osapurit Burgerstore",
+        menu: "https://www.scoutmenu.it/dettagli-locale.php?id=1361",
+        dateAdded: "2024-04-16"
       }
     ]
   },
@@ -692,7 +721,15 @@ export const places = {
         name: "Drink Iamo",
         dateAdded: "2024-04-10",
       }
-    ]
+    ],
+    Somma_Vesuviana: [
+      {
+        url: "https://www.instagram.com/operhaclub/",
+        menu: "https://www.operhaclub.it/menu/",
+        name: "Operhaclub",
+        dateAdded: "2024-04-16",
+      }
+    ],
   },
   Dolci: {
     Pomigliano: [

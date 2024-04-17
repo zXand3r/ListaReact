@@ -45,7 +45,7 @@
   display: flex;
   width: 100%;
   max-width: 500px; /* Larghezza massima della searchBar */
-  margin: 20px auto; /* Margine per centrare la searchBar */
+  margin: 10px auto; /* Margine per centrare la searchBar */
 }
 
 .searchBar input[type="text"] {
@@ -104,6 +104,10 @@
     left: 0;
     font-size: 16px;
   }
+  .clearButton2{
+    top: 0;
+    left: 82.5%;
+  }
 }
 
 @media (max-width: 420px){
@@ -117,7 +121,11 @@
     width: 80%;
     left: 0;
   }
+  .clearButton2{
+    left: 82%;
+  }
 }
+
 
 /* Nascondi la scrollbar verticale e orizzontale */
 ::-webkit-scrollbar {
@@ -145,4 +153,35 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #0056b3; /* Colore del thumb al passaggio del mouse */
   width: 10px; /* Larghezza aumentata del thumb al passaggio del mouse */
+}
+
+.featureMessage {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  left: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.clearButton2{
+  background-color: transparent;
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  right: 4%;
+}
+.featureBtnContainer{
+  display: flex;
+  width: 90%;
+  height: 100%;
+}
+.featureButton{
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
 }

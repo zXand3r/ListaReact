@@ -762,7 +762,7 @@ export const places = {
     Poggiomarino: [
       {
         url: "https://www.instagram.com/cornetteriailbaffo/",
-        name: "Conetteria il Baffo",
+        name: "Cornetteria il Baffo",
         dateAdded: "2024-04-05"
       },
     ],

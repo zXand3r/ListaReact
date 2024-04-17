@@ -2,7 +2,7 @@ import React from "react";
 import { PlaceList } from "./PlaceList";
 import "./Category.css";
 
-export function Category({ category, cities, searchText }) {
+export function Category({ category, cities, searchText, searchTextPlace }) {
   const filteredCities = Object.keys(cities).filter((city) =>
     city.toLowerCase().includes(searchText.toLowerCase())
   );
@@ -17,6 +17,7 @@ export function Category({ category, cities, searchText }) {
             city={city}
             places={cities[city]}
             searchText={searchText}
+            searchTextPlace={searchTextPlace} // Passa il nuovo testo di ricerca
           />
         ))
       ) : (

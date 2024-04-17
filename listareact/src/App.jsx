@@ -6,6 +6,7 @@ import { isNewPlace } from './Place.jsx';
 
 function App() {
   const [searchText, setSearchText] = useState("");
+  const [searchTextPlace, setSearchTextPlace] = useState("");
   const [newPlacesAdded, setNewPlacesAdded] = useState([]);
 
   useEffect(() => {
@@ -26,10 +27,17 @@ function App() {
 
   const handleSearchChange = (event) => {
     setSearchText(event.target.value);
+    setSearchTextPlace(""); // Disattiva l'altra searchbar
+  };
+
+  const handleSearchPlaceChange = (event) => {
+    setSearchTextPlace(event.target.value);
+    setSearchText(""); // Disattiva l'altra searchbar
   };
 
   const clearSearchText = () => {
     setSearchText("");
+    setSearchTextPlace("");
   };
 
   return (
@@ -57,6 +65,20 @@ function App() {
           </button>
         )}
       </div>
+      <div className="searchBar">
+        <input
+          className="input"
+          type="text"
+          placeholder="Filtra per nome posto..."
+          value={searchTextPlace}
+          onChange={handleSearchPlaceChange}
+        />
+        {searchTextPlace.length > 0 && (
+          <button className="clearButton" onClick={clearSearchText}>
+            X
+          </button>
+        )}
+      </div>
       <div className="containerLista">
         <h1 className="titoloLista">Lista dei Posti</h1>
         {Object.keys(places).map((category) => (
@@ -65,6 +87,7 @@ function App() {
             category={category}
             cities={places[category]}
             searchText={searchText}
+            searchTextPlace={searchTextPlace}
           />
         ))}
       </div>

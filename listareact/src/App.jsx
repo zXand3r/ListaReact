@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 import { places } from "./places";
 import { Category } from "./Category";
 import "./App.css";
@@ -8,9 +8,6 @@ function App() {
   const [searchText, setSearchText] = useState("");
   const [searchTextPlace, setSearchTextPlace] = useState("");
   const [newPlacesAdded, setNewPlacesAdded] = useState([]);
-  const [showFeatureMessage, setShowFeatureMessage] = useState(false);
-
-  const featureMessageTimeoutRef = useRef(null);
 
   useEffect(() => {
     const newPlaces = [];
@@ -45,14 +42,6 @@ function App() {
   const clearSearchText = () => {
     setSearchText("");
     setSearchTextPlace("");
-  };
-
-  const handleFeatureClick = () => {
-    setShowFeatureMessage(true);
-    clearTimeout(featureMessageTimeoutRef.current);
-    featureMessageTimeoutRef.current = setTimeout(() => {
-      setShowFeatureMessage(false);
-    }, 2000); // 2 secondi
   };
 
   return (
@@ -90,23 +79,9 @@ function App() {
           onChange={handleSearchPlaceChange}
         />
         {searchTextPlace.length > 0 && (
-          <div>
-
-            <button className="clearButton2" onClick={clearSearchText}>
+            <button className="clearButton" onClick={clearSearchText}>
               X
             </button>
-            <div className="featureBtnContainer">
-              <button className="featureButton" onClick={handleFeatureClick}>
-                ⚠
-              </button>
-              {showFeatureMessage && (
-                <div className="featureMessage">
-                  feature work in progress, per qualsiasi bug contattate il
-                  proprietario!
-                </div>
-              )}
-              </div>
-              </div>
         )}
       </div>
       <div className="containerLista">

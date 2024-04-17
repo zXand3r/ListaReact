@@ -7,6 +7,18 @@ export function Category({ category, cities, searchText, searchTextPlace }) {
     city.toLowerCase().includes(searchText.toLowerCase())
   );
 
+  // Verifica se ci sono posti filtrati in questa categoria
+  const hasFilteredPlaces = filteredCities.some((city) =>
+    cities[city].some((place) =>
+      place.name.toLowerCase().includes(searchTextPlace.toLowerCase())
+    )
+  );
+
+  // Se non ci sono posti filtrati in questa categoria, nascondi la categoria
+  if (!hasFilteredPlaces) {
+    return null;
+  }
+
   return (
     <div className="categoryContainer">
       {filteredCities.map((city) => (

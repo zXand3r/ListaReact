@@ -146,3 +146,26 @@
   background: #0056b3; /* Colore del thumb al passaggio del mouse */
   width: 10px; /* Larghezza aumentata del thumb al passaggio del mouse */
 }
+
+.featureMessage {
+  position: absolute;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  left: 100%;
+  width: 80%;
+}
+.featureBtnContainer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.clearButton2{
+  background-color: transparent;
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  right: 3%;
+}

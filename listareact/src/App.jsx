@@ -1,24 +1,31 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { places } from "./places";
 import { Category } from "./Category";
 import "./App.css";
-import { isNewPlace } from './Place.jsx';
+import { isNewPlace } from "./Place.jsx";
 
 function App() {
   const [searchText, setSearchText] = useState("");
   const [searchTextPlace, setSearchTextPlace] = useState("");
   const [newPlacesAdded, setNewPlacesAdded] = useState([]);
+  const [showFeatureMessage, setShowFeatureMessage] = useState(false);
+
+  const featureMessageTimeoutRef = useRef(null);
 
   useEffect(() => {
     const newPlaces = [];
     for (const category in places) {
       for (const city in places[category]) {
         const cityPlaces = places[category][city];
-        const newCityPlaces = cityPlaces.filter(place => {
+        const newCityPlaces = cityPlaces.filter((place) => {
           return isNewPlace(place.dateAdded);
         });
         if (newCityPlaces.length > 0) {
-          newPlaces.push({ city, count: newCityPlaces.length, category: category });
+          newPlaces.push({
+            city,
+            count: newCityPlaces.length,
+            category: category,
+          });
         }
       }
     }
@@ -40,13 +47,22 @@ function App() {
     setSearchTextPlace("");
   };
 
+  const handleFeatureClick = () => {
+    setShowFeatureMessage(true);
+    clearTimeout(featureMessageTimeoutRef.current);
+    featureMessageTimeoutRef.current = setTimeout(() => {
+      setShowFeatureMessage(false);
+    }, 2000); // 2 secondi
+  };
+
   return (
     <div className="mainContainer">
       {newPlacesAdded.length > 0 && (
         <ul className="notification">
           {newPlacesAdded.map((newPlace, index) => (
             <li key={index}>
-              {newPlace.count} nuovi posti aggiunti a {newPlace.city} - <strong>{newPlace.category}</strong>
+              {newPlace.count} nuovi posti aggiunti a {newPlace.city} -{" "}
+              <strong>{newPlace.category}</strong>
             </li>
           ))}
         </ul>
@@ -74,9 +90,23 @@ function App() {
           onChange={handleSearchPlaceChange}
         />
         {searchTextPlace.length > 0 && (
-          <button className="clearButton" onClick={clearSearchText}>
-            X
-          </button>
+          <div>
+
+            <button className="clearButton2" onClick={clearSearchText}>
+              X
+            </button>
+            <div className="featureBtnContainer">
+              <button className="featureButton" onClick={handleFeatureClick}>
+                ⚠
+              </button>
+              {showFeatureMessage && (
+                <div className="featureMessage">
+                  feature work in progress, per qualsiasi bug contattate il
+                  proprietario!
+                </div>
+              )}
+              </div>
+              </div>
         )}
       </div>
       <div className="containerLista">

@@ -9,20 +9,16 @@ export function Category({ category, cities, searchText, searchTextPlace }) {
 
   return (
     <div className="categoryContainer">
-      {filteredCities.length ? (
-        filteredCities.map((city) => (
-          <PlaceList
-            key={`${category}-${city}`}
-            category={category}
-            city={city}
-            places={cities[city]}
-            searchText={searchText}
-            searchTextPlace={searchTextPlace} // Passa il nuovo testo di ricerca
-          />
-        ))
-      ) : (
-        <div className="noResults">Error</div>
-      )}
+      {filteredCities.map((city) => (
+        <PlaceList
+          key={`${category}-${city}`}
+          category={category}
+          city={city}
+          places={cities[city]}
+          searchText={searchText}
+          searchTextPlace={searchTextPlace}
+        />
+      ))}
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { places } from "./places";
 import { Category } from "./Category";
 import "./App.css";
@@ -8,6 +8,7 @@ function App() {
   const [searchText, setSearchText] = useState("");
   const [searchTextPlace, setSearchTextPlace] = useState("");
   const [newPlacesAdded, setNewPlacesAdded] = useState([]);
+  const [toggleNotification, setToggleNotification] = useState(false);
 
   useEffect(() => {
     const newPlaces = [];
@@ -44,9 +45,19 @@ function App() {
     setSearchTextPlace("");
   };
 
+  const toggleNotifications = () => {
+    setToggleNotification(!toggleNotification);
+  };
+
   return (
     <div className="mainContainer">
-      {newPlacesAdded.length > 0 && (
+      <button
+        className="toggleNotificationButton"
+        onClick={toggleNotifications}
+      >
+        {toggleNotification ? "Nascondi Notifiche" : "Mostra Notifiche"}
+      </button>
+      {toggleNotification && newPlacesAdded.length > 0 && (
         <ul className="notification">
           {newPlacesAdded.map((newPlace, index) => (
             <li key={index}>
@@ -79,9 +90,9 @@ function App() {
           onChange={handleSearchPlaceChange}
         />
         {searchTextPlace.length > 0 && (
-            <button className="clearButton" onClick={clearSearchText}>
-              X
-            </button>
+          <button className="clearButton" onClick={clearSearchText}>
+            X
+          </button>
         )}
       </div>
       <div className="containerLista">

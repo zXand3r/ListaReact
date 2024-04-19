@@ -108,7 +108,7 @@ export const places = {
         menu: "https://www.operhaclub.it/menu/",
         name: "Operhaclub",
         dateAdded: "2024-04-16",
-      }
+      },
     ],
     Torre_Annunziata: [
       {
@@ -172,7 +172,7 @@ export const places = {
         url: "https://www.instagram.com/20morsipaninoteca/",
         menu: "https://www.instagram.com/stories/highlights/18004435418171907/",
         name: "20 Morsi",
-        dateAdded: "2024-03-21"
+        dateAdded: "2024-03-21",
       },
       {
         url: "https://www.instagram.com/icarnaloni/",
@@ -309,8 +309,14 @@ export const places = {
         url: "https://www.instagram.com/zeroundicipizzeria/",
         name: "Zero Undici",
         dateAdded: "2024-04-12",
-        menu: "uqr.to/1q9eg"
-      }
+        menu: "uqr.to/1q9eg",
+      },
+      {
+        url: "https://www.instagram.com/sanfelice_ristopub/",
+        name: "San Felice Ristopub",
+        dateAdded: "2024-04-19",
+        menu: "https://www.sanfeliceristopub.it/menu",
+      },
     ],
     Napoli: [
       {
@@ -354,13 +360,13 @@ export const places = {
         url: "https://www.instagram.com/biergarten_pub/",
         name: "Biergarten",
         dateAdded: "2024-04-12",
-        menu: "www.bestogoo.com/view/menu.php?menuid=673"
+        menu: "www.bestogoo.com/view/menu.php?menuid=673",
       },
       {
         url: "https://www.instagram.com/maturopizzeria/",
         name: "Maturo",
         dateAdded: "2024-04-16",
-      }
+      },
     ],
     San_Vitaliano: [
       {
@@ -392,6 +398,12 @@ export const places = {
         url: "https://www.instagram.com/ventunoventisei_2126",
         menu: "https://ventunoventiseisrls.qromo.it/",
         name: "Ventuno Ventisei & Drink",
+      },
+      {
+        url: "https://www.instagram.com/sashi_steakhouse/",
+        name: "Sashi Steakhouse",
+        menu: "https://sashisteakhouse.my.canva.site/home",
+        dateAdded: "2024-04-19",
       },
     ],
     Pompei: [
@@ -454,7 +466,7 @@ export const places = {
         url: "https://www.instagram.com/cescoburger/",
         menu: "bit.ly/appcescoburger",
         name: "Cesco burger",
-        dateAdded:"2024-03-21",
+        dateAdded: "2024-03-21",
       },
     ],
     Palma_Campania: [
@@ -619,7 +631,7 @@ export const places = {
         name: "Kings Road Pub",
         menu: "https://www.localismart.it/kingsroadpubegrill/",
         dateAdded: "2024-04-16",
-      }
+      },
     ],
     Boscotrecase: [
       {
@@ -633,21 +645,26 @@ export const places = {
         url: "https://www.instagram.com/putecaburger/",
         name: "Puteca Burger",
         menu: "http://www.putecaburger.it/",
-        dateAdded: "2024-03-25"
+        dateAdded: "2024-03-25",
       },
       {
         url: "https://www.instagram.com/osapurit_steakhouse/",
         name: "Osapurit Steakhouse",
         menu: "https://www.scoutmenu.it/dettagli-locale.php?id=1110",
-        dateAdded: "2024-04-16"
+        dateAdded: "2024-04-16",
       },
       {
         url: "https://www.instagram.com/osapurit_burgerstore/",
         name: "Osapurit Burgerstore",
         menu: "https://www.scoutmenu.it/dettagli-locale.php?id=1361",
-        dateAdded: "2024-04-16"
-      }
-    ]
+        dateAdded: "2024-04-16",
+      },
+      {
+        url: "https://www.instagram.com/mi_house_pizza_e_fritti/",
+        name: "Mi House Pizza E Fritti",
+        dateAdded: "2024-04-19",
+      },
+    ],
   },
   Drink: {
     Pomigliano: [
@@ -690,7 +707,7 @@ export const places = {
         url: "https://www.instagram.com/albucococktailbar/",
         menu: "https://www.instagram.com/stories/highlights/18021778534866127/",
         name: "Albuco",
-        dateAdded: "2024-03-25"
+        dateAdded: "2024-03-25",
       },
     ],
     Sant_Anastasia: [
@@ -720,7 +737,7 @@ export const places = {
         menu: "",
         name: "Drink Iamo",
         dateAdded: "2024-04-10",
-      }
+      },
     ],
     Somma_Vesuviana: [
       {
@@ -728,7 +745,7 @@ export const places = {
         menu: "https://www.operhaclub.it/menu/",
         name: "Operhaclub",
         dateAdded: "2024-04-16",
-      }
+      },
     ],
   },
   Dolci: {
@@ -743,8 +760,8 @@ export const places = {
       {
         url: "https://www.instagram.com/il_funghetto/",
         menu: "",
-        name: "Il Funghetto"
-      }
+        name: "Il Funghetto",
+      },
     ],
     Ottaviano: [
       {
@@ -753,17 +770,17 @@ export const places = {
         name: "Sessa1930",
       },
       {
-        url:"https://www.instagram.com/reserva_cocktailandmore/",
+        url: "https://www.instagram.com/reserva_cocktailandmore/",
         menu: "",
         name: "Reserva Cocktail & More",
-        dateAdded: "2024-04-11"
-      }
+        dateAdded: "2024-04-11",
+      },
     ],
     Poggiomarino: [
       {
         url: "https://www.instagram.com/cornetteriailbaffo/",
         name: "Cornetteria il Baffo",
-        dateAdded: "2024-04-05"
+        dateAdded: "2024-04-05",
       },
     ],
     Terzigno: [
@@ -771,7 +788,7 @@ export const places = {
         url: "https://www.instagram.com/grafferiacioco1/",
         dateAdded: "2024-04-05",
         name: "Grafferia Cioco",
-      }
+      },
     ],
     San_Marzano: [
       {
@@ -779,14 +796,14 @@ export const places = {
         dateAdded: "2024-04-05",
         name: "Da Guly",
         menu: "bit.ly/3uBxr1f",
-      }
+      },
     ],
     Nola: [
       {
         url: "https://www.instagram.com/nouveauelementididesign/",
         dateAdded: "2024-04-11",
         name: "Nouveauelementi Design",
-      }
-    ]
+      },
+    ],
   },
 };

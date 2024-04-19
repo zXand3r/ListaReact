@@ -185,3 +185,22 @@
   height: 100%;
   width: 100%;
 }
+
+.toggleNotificationButton {
+  background-color: #007bff; /* Colore di sfondo */
+  color: #fff; /* Colore del testo */
+  border: none; /* Rimuovi il bordo */
+  padding: 10px 20px; /* Spaziatura interna */
+  cursor: pointer; /* Cambia il cursore al passaggio */
+  border-radius: 5px; /* Bordo arrotondato */
+  margin-bottom: 10px; /* Margine inferiore */
+  font-size: 16px; /* Dimensione del testo */
+}
+
+.toggleNotificationButton:hover {
+  background-color: #0056b3; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+.toggleNotificationButton:focus {
+  outline: none; /* Rimuovi l'outline al focus */
+}

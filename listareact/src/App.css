@@ -79,6 +79,10 @@
   left: 40%;
 }
 
+.notificationNone{
+  color: whitesmoke;
+}
+
 @media (max-width: 1150px){
   .containerLista{
     width: 95%;

@@ -55,18 +55,24 @@ function App() {
         className="toggleNotificationButton"
         onClick={toggleNotifications}
       >
-        {toggleNotification ? "Nascondi Notifiche" : "Mostra Notifiche"}
+        {toggleNotification ? "Nascondi nuovi posti" : "Mostra nuovi posti"}
       </button>
-      {toggleNotification && newPlacesAdded.length > 0 && (
-        <ul className="notification">
-          {newPlacesAdded.map((newPlace, index) => (
-            <li key={index}>
-              {newPlace.count} nuovi posti aggiunti a {newPlace.city} -{" "}
-              <strong>{newPlace.category}</strong>
-            </li>
-          ))}
-        </ul>
-      )}
+      {toggleNotification &&
+        (newPlacesAdded.length > 0 ? (
+          <ul className="notification">
+            {newPlacesAdded.map((newPlace, index) => (
+              <li key={index}>
+                {newPlace.count} nuovi posti aggiunti a {newPlace.city} -{" "}
+                <strong>{newPlace.category}</strong>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <h3 className="notificationNone">
+          😄Nessun nuovo posto aggiunto nell'<span style={{textDecoration: "underline", textDecorationColor: "cyan"}}>
+            ultima settimana</span>😄
+        </h3>
+        ))}
       <div className="searchBar">
         <input
           className="input"

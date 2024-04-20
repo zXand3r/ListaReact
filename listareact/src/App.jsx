@@ -62,7 +62,7 @@ function App() {
           <ul className="notification">
             {newPlacesAdded.map((newPlace, index) => (
               <li key={index}>
-                {newPlace.count} nuovi posti aggiunti a {newPlace.city} -{" "}
+                {newPlace.count} nuovi posti aggiunti a <span style={{color: "#3fade9", fontWeight: "bolder", fontStyle: "italic"}}>{newPlace.city}</span> -{" "}
                 <strong>{newPlace.category}</strong>
               </li>
             ))}

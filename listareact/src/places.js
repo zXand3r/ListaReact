@@ -468,6 +468,11 @@ export const places = {
         name: "Cesco burger",
         dateAdded: "2024-03-21",
       },
+      {
+        url: "https://www.instagram.com/hey_joe_fastfood/",
+        name: "Hey Joe fastfood",
+        dateAdded: "2024-04-21",
+      }
     ],
     Palma_Campania: [
       {
@@ -481,6 +486,12 @@ export const places = {
         name: "Pizzeria Jolly",
         dateAdded: "2024-04-10",
       },
+      {
+        url: "https://www.instagram.com/carbonemeathouse/",
+        name: "Carboné Meathouse",
+        dateAdded: "2024-04-21",
+        menu: "bit.ly/42U0koC"
+      }
     ],
     Avellino: [
       {
@@ -525,6 +536,18 @@ export const places = {
         menu: "",
         name: "Galleon Pub",
       },
+      {
+        url: "https://www.instagram.com/4burgerandmore/",
+        name: "4 Burger&More",
+        dateAdded: "2024-04-21",
+        menu: "https://www.4burger.it/products/"
+      },
+      {
+        url: "https://www.instagram.com/maclarenspub_italia/",
+        name: "Maclaren's Pub",
+        dateAdded: "2024-04-21",
+        menu: "https://www.maclarenspub.it/"
+      }
     ],
     Ercolano: [
       {
@@ -556,6 +579,12 @@ export const places = {
         url: "https://www.instagram.com/oine_drink.food_",
         menu: "https://www.instagram.com/stories/highlights/18032042968646972/",
         name: "Oine",
+      },
+      {
+        url: "https://www.instagram.com/pig_n_fish/",
+        name: "Pig&Fish",
+        dateAdded: "2024-04-21",
+        menu: "www.flipbookpdf.net/web/site/88192854e04b81c9cdcbc5da2fc7f3f153c9174a202311.pdf.html",
       },
     ],
     Sarno: [
@@ -663,6 +692,18 @@ export const places = {
         url: "https://www.instagram.com/mi_house_pizza_e_fritti/",
         name: "Mi House Pizza E Fritti",
         dateAdded: "2024-04-19",
+      },
+      {
+        url: "https://www.instagram.com/jooink/",
+        name: "Jooink",
+        dateAdded: "2024-04-21",
+        menu: "https://linktr.ee/jooink"
+      },
+      {
+        url: "https://www.instagram.com/pizzalogy_napoli/",
+        name: "Pizzalogy Napoli",
+        dateAdded: "2024-04-21",
+        menu: "https://linktr.ee/pizzalogy",
       },
     ],
   },

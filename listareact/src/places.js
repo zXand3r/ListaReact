@@ -367,6 +367,12 @@ export const places = {
         name: "Maturo",
         dateAdded: "2024-04-16",
       },
+      {
+        url: "https://www.instagram.com/dixiesteakhouse/",
+        name: "Dixie Steak House",
+        dateAdded: "2024-04-23",
+        menu: "www.dixiesteakhouse.it",
+      },
     ],
     San_Vitaliano: [
       {
@@ -661,6 +667,12 @@ export const places = {
         menu: "https://www.localismart.it/kingsroadpubegrill/",
         dateAdded: "2024-04-16",
       },
+      {
+        url: "https://www.instagram.com/12morsi/",
+        name: "12 Morsi",
+        dateAdded: "2024-04-23",
+        menu: "https://linktr.ee/12morsilink",
+      }
     ],
     Boscotrecase: [
       {
@@ -705,6 +717,12 @@ export const places = {
         dateAdded: "2024-04-21",
         menu: "https://linktr.ee/pizzalogy",
       },
+      {
+        url: "https://www.instagram.com/hollyfood_diner/",
+        name: "Holly Food",
+        dateAdded: "2024-04-23",
+        menu: "https://menu.pienissimo.com/menu",
+      }
     ],
   },
   Drink: {
@@ -764,6 +782,11 @@ export const places = {
         menu: "",
         name: "Santa Monica",
       },
+      {
+        url: "https://www.instagram.com/barone_loungebar/",
+        name: "Barone Loungebar",
+        dateAdded: "2024-04-23",
+      }
     ],
     Pompei: [
       {

@@ -77,7 +77,7 @@ function App() {
   };
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Voglio aggiungere questo posto: [Inserisci qui il testo del posto]");
+    const message = encodeURIComponent("Ciao, puoi aggiungere questo: [Inserisci qui l'instagram del posto]");
     window.open(`https://wa.me/3249854894?text=${message}`);
   };
 

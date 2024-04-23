@@ -3,12 +3,16 @@ import { places } from "./places";
 import { Category } from "./Category";
 import "./App.css";
 import { isNewPlace } from "./Place.jsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import whatsappIcon from "./assets/whatsapp.svg";
 
 function App() {
   const [searchText, setSearchText] = useState("");
   const [searchTextPlace, setSearchTextPlace] = useState("");
   const [newPlacesAdded, setNewPlacesAdded] = useState([]);
   const [toggleNotification, setToggleNotification] = useState(false);
+  const [showScrollButton, setShowScrollButton] = useState(false);
 
   useEffect(() => {
     const newPlaces = [];
@@ -30,6 +34,29 @@ function App() {
     setNewPlacesAdded(newPlaces);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowScrollButton(true);
+      } else {
+        setShowScrollButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const handleSearchChange = (event) => {
     setSearchText(event.target.value);
     setSearchTextPlace(""); // Disattiva l'altra searchbar
@@ -49,6 +76,12 @@ function App() {
     setToggleNotification(!toggleNotification);
   };
 
+  const handleWhatsApp = () => {
+    const message = encodeURIComponent("Voglio aggiungere questo posto: [Inserisci qui il testo del posto]");
+    window.open(`https://wa.me/3249854894?text=${message}`);
+  };
+
+
   return (
     <div className="mainContainer">
       <button
@@ -62,16 +95,33 @@ function App() {
           <ul className="notification">
             {newPlacesAdded.map((newPlace, index) => (
               <li key={index}>
-                {newPlace.count} nuovi posti aggiunti a <span style={{color: "#3fade9", fontWeight: "bolder", fontStyle: "italic"}}>{newPlace.city}</span> -{" "}
-                <strong>{newPlace.category}</strong>
+                {newPlace.count} nuovi posti aggiunti a{" "}
+                <span
+                  style={{
+                    color: "#3fade9",
+                    fontWeight: "bolder",
+                    fontStyle: "italic",
+                  }}
+                >
+                  {newPlace.city}
+                </span>{" "}
+                - <strong>{newPlace.category}</strong>
               </li>
             ))}
           </ul>
         ) : (
           <h3 className="notificationNone">
-          😄Nessun nuovo posto aggiunto nell'<span style={{textDecoration: "underline", textDecorationColor: "cyan"}}>
-            ultima settimana</span>😄
-        </h3>
+            😄Nessun nuovo posto aggiunto nell'
+            <span
+              style={{
+                textDecoration: "underline",
+                textDecorationColor: "cyan",
+              }}
+            >
+              ultima settimana
+            </span>
+            😄
+          </h3>
         ))}
       <div className="searchBar">
         <input
@@ -113,6 +163,16 @@ function App() {
           />
         ))}
       </div>
+      {showScrollButton && (
+        <>
+          <div className="whatsappButton" onClick={handleWhatsApp}>
+            <img src={whatsappIcon} alt="whatsapp Logo" />
+          </div>
+          <button className="scrollButton" onClick={scrollToTop}>
+            <FontAwesomeIcon icon={faArrowUp} />
+          </button>
+        </>
+      )}
     </div>
   );
 }

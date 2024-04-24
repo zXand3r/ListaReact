@@ -188,7 +188,7 @@ export const places = {
       },
       {
         url: "https://www.instagram.com/bestofhamburger/",
-        menu: "https://www.bestofhamburger.com/wp-content/uploads/2023/09/boh-menu-pdf.pdf",
+        menu: "https://www.bestofhamburger.com/",
         name: "Best Of Hamburger",
       },
       {
@@ -317,6 +317,12 @@ export const places = {
         dateAdded: "2024-04-19",
         menu: "https://www.sanfeliceristopub.it/menu",
       },
+      {
+        url: "https://www.instagram.com/biliardo65/",
+        name: "Biliardo65",
+        dateAdded: "2024-04-24",
+        menu: "bit.ly/43UZxVr",
+      }
     ],
     Napoli: [
       {
@@ -449,6 +455,11 @@ export const places = {
         name: "Arte del kebab",
         dateAdded: "2024-03-21",
       },
+      {
+        url: "https://www.instagram.com/ristoranteshavalpompei/",
+        name: "Ristorante Shaval",
+        dateAdded: "2024-04-24",
+      }
     ],
     Santa_Maria_la_Carità: [
       {

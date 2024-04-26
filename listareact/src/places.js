@@ -322,7 +322,7 @@ export const places = {
         name: "Biliardo65",
         dateAdded: "2024-04-24",
         menu: "bit.ly/43UZxVr",
-      }
+      },
     ],
     Napoli: [
       {
@@ -378,6 +378,11 @@ export const places = {
         name: "Dixie Steak House",
         dateAdded: "2024-04-23",
         menu: "www.dixiesteakhouse.it",
+      },
+      {
+        url: "https://www.instagram.com/smeshburgers/",
+        name: "Smesh Burgers",
+        dateAdded: "2024-04-26",
       },
     ],
     San_Vitaliano: [
@@ -459,7 +464,7 @@ export const places = {
         url: "https://www.instagram.com/ristoranteshavalpompei/",
         name: "Ristorante Shaval",
         dateAdded: "2024-04-24",
-      }
+      },
     ],
     Santa_Maria_la_Carità: [
       {
@@ -489,7 +494,7 @@ export const places = {
         url: "https://www.instagram.com/hey_joe_fastfood/",
         name: "Hey Joe fastfood",
         dateAdded: "2024-04-21",
-      }
+      },
     ],
     Palma_Campania: [
       {
@@ -507,8 +512,8 @@ export const places = {
         url: "https://www.instagram.com/carbonemeathouse/",
         name: "Carboné Meathouse",
         dateAdded: "2024-04-21",
-        menu: "bit.ly/42U0koC"
-      }
+        menu: "bit.ly/42U0koC",
+      },
     ],
     Avellino: [
       {
@@ -557,14 +562,29 @@ export const places = {
         url: "https://www.instagram.com/4burgerandmore/",
         name: "4 Burger&More",
         dateAdded: "2024-04-21",
-        menu: "https://www.4burger.it/products/"
+        menu: "https://www.4burger.it/products/",
       },
       {
         url: "https://www.instagram.com/maclarenspub_italia/",
         name: "Maclaren's Pub",
         dateAdded: "2024-04-21",
-        menu: "https://www.maclarenspub.it/"
-      }
+        menu: "https://www.maclarenspub.it/",
+      },
+      {
+        url: "https://www.instagram.com/vamoss_salerno/",
+        name: "Vamoss",
+        dateAdded: "2024-04-26",
+      },
+      {
+        url: "https://www.instagram.com/quantobastasalerno_qb/",
+        name: "Quantobasta Salerno",
+        dateAdded: "2024-04-26",
+      },
+      {
+        url: "https://www.instagram.com/ingordo_burger/",
+        name: "Ingordo Burger",
+        dateAdded: "2024-04-26",
+      },
     ],
     Ercolano: [
       {
@@ -602,6 +622,12 @@ export const places = {
         name: "Pig&Fish",
         dateAdded: "2024-04-21",
         menu: "www.flipbookpdf.net/web/site/88192854e04b81c9cdcbc5da2fc7f3f153c9174a202311.pdf.html",
+      },
+      {
+        url: "https://www.instagram.com/bluespizza_angri/",
+        name: "BluesPizza",
+        dateAdded: "2024-04-26",
+        menu: "bit.ly/m/bluespizza",
       },
     ],
     Sarno: [
@@ -683,7 +709,7 @@ export const places = {
         name: "12 Morsi",
         dateAdded: "2024-04-23",
         menu: "https://linktr.ee/12morsilink",
-      }
+      },
     ],
     Boscotrecase: [
       {
@@ -720,7 +746,7 @@ export const places = {
         url: "https://www.instagram.com/jooink/",
         name: "Jooink",
         dateAdded: "2024-04-21",
-        menu: "https://linktr.ee/jooink"
+        menu: "https://linktr.ee/jooink",
       },
       {
         url: "https://www.instagram.com/pizzalogy_napoli/",
@@ -733,7 +759,12 @@ export const places = {
         name: "Holly Food",
         dateAdded: "2024-04-23",
         menu: "https://menu.pienissimo.com/menu",
-      }
+      },
+      {
+        url: "https://www.instagram.com/pizzeria_alfa_/",
+        name: "Pizzeria alfa",
+        dateAdded: "2024-04-26",
+      },
     ],
   },
   Drink: {
@@ -797,7 +828,7 @@ export const places = {
         url: "https://www.instagram.com/barone_loungebar/",
         name: "Barone Loungebar",
         dateAdded: "2024-04-23",
-      }
+      },
     ],
     Pompei: [
       {

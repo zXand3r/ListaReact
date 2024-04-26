@@ -117,9 +117,6 @@ function App() {
                 - <strong>{newPlace.category}</strong>
               </li>
             ))}
-            <div className="lastUpdated">
-              Ultimo aggiornamento: {formatDate(lastUpdated)}
-            </div>
           </ul>
         ) : (
           <h3 className="notificationNone">
@@ -162,6 +159,9 @@ function App() {
             X
           </button>
         )}
+      </div>
+      <div className="lastUpdated">
+        Ultimo aggiornamento: {formatDate(lastUpdated)}
       </div>
       <div className="containerLista">
         <h1 className="titoloLista">Lista dei Posti</h1>

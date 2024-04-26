@@ -13,6 +13,7 @@ function App() {
   const [newPlacesAdded, setNewPlacesAdded] = useState([]);
   const [toggleNotification, setToggleNotification] = useState(false);
   const [showScrollButton, setShowScrollButton] = useState(false);
+  const [lastUpdated, setLastUpdated] = useState(new Date());
 
   useEffect(() => {
     const newPlaces = [];
@@ -32,6 +33,7 @@ function App() {
       }
     }
     setNewPlacesAdded(newPlaces);
+    setLastUpdated(new Date()); // Aggiorna la data dell'ultimo aggiornamento
   }, []);
 
   useEffect(() => {
@@ -77,10 +79,17 @@ function App() {
   };
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Ciao, puoi aggiungere questo: [Inserisci qui l'instagram del posto]");
+    const message = encodeURIComponent(
+      "Ciao, puoi aggiungere questo: [Inserisci qui l'instagram del posto]"
+    );
     window.open(`https://wa.me/3249854894?text=${message}`);
   };
 
+  const formatDate = (date) => {
+    const options = { day: "2-digit", month: "long", year: "numeric" };
+    const formattedDate = date.toLocaleDateString("en-US", options);
+    return formattedDate;
+  };
 
   return (
     <div className="mainContainer">
@@ -108,6 +117,9 @@ function App() {
                 - <strong>{newPlace.category}</strong>
               </li>
             ))}
+            <div className="lastUpdated">
+              Ultimo aggiornamento: {formatDate(lastUpdated)}
+            </div>
           </ul>
         ) : (
           <h3 className="notificationNone">

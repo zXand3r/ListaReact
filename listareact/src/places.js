@@ -61,6 +61,12 @@ export const places = {
         name: "Dublin Square",
         dateAdded: "2024-03-22",
       },
+      {
+        url: "https://www.instagram.com/thesign_pomigliano",
+        name: "The Sign",
+        menu: "https://thesign.pub/menu-pomigliano/",
+        dateAdded: "2024-03-30",
+      }
     ],
     Somma_Vesuviana: [
       {

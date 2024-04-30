@@ -21,11 +21,6 @@ export const places = {
         name: "Paninoteca SoldOut",
       },
       {
-        url: "https://instagram.com/upstairpomigliano",
-        menu: "https://www.instagram.com/stories/highlights/17988270223721431/",
-        name: "Upstair",
-      },
-      {
         url: "https://instagram.com/madrabbit_pomigliano",
         menu: "https://menumadrabbit.it/",
         name: "MadRabbit",
@@ -383,6 +378,11 @@ export const places = {
         url: "https://www.instagram.com/smeshburgers/",
         name: "Smesh Burgers",
         dateAdded: "2024-04-26",
+      },
+      {
+        url: "https://www.instagram.com/animus_osteria/",
+        name: "Animus Osteria",
+        dateAdded: "2024-04-30",
       },
     ],
     San_Vitaliano: [
@@ -770,6 +770,11 @@ export const places = {
   Drink: {
     Pomigliano: [
       {
+        url: "https://instagram.com/upstairpomigliano",
+        menu: "https://www.instagram.com/stories/highlights/17988270223721431/",
+        name: "Upstair",
+      },
+      {
         url: "https://www.instagram.com/officina_alcolica_pomigliano/",
         name: "Officina Alcolica",
       },
@@ -791,6 +796,12 @@ export const places = {
       {
         url: "https://instagram.com/mistergranita_official",
         name: "Mister Granita",
+      },
+      {
+        url: "https://www.instagram.com/labyrinth_birreria/",
+        name: "Labyrinth",
+        dateAdded: "2024-04-30",
+        menu: "www.labyrinthbirreria.it",
       },
     ],
     Torre_Del_Greco: [

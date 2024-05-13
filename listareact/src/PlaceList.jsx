@@ -9,20 +9,24 @@ export function PlaceList({ category, city, places, searchText, searchTextPlace 
     return nameMatch;
   });
 
+  // Verifica se ci sono posti filtrati in questa città
+  const hasFilteredPlaces = filteredPlaces.length > 0;
+
+  // Se non ci sono posti filtrati in questa città, non mostrare il div
+  if (!hasFilteredPlaces) {
+    return null;
+  }
+
   return (
     <div className="list">
-      {filteredPlaces.length > 0 &&
-        <div>
-          <h2>
-            {category} - {city}
-          </h2>
-          <ul>
-            {filteredPlaces.map((place, index) => (
-              <Place key={index} place={place} />
-            ))}
-          </ul>
-        </div>
-      }
+      <h2>
+        {category} - {city}
+      </h2>
+      <ul>
+        {filteredPlaces.map((place, index) => (
+          <Place key={index} place={place} />
+        ))}
+      </ul>
     </div>
   );
 }

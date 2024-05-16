@@ -885,6 +885,14 @@ export const places = {
         menu: "https://www.instagram.com/stories/highlights/18115051636356164/",
       },
     ],
+    Palma_Campania: [
+      {
+        url: "https://www.instagram.com/chalepalmacampania/",
+        menu: "https://www.leggimenu.it/menu/chale-coffee-e-lounge",
+        name: "Chalè Palma Campania",
+        dateAdded: "2024-05-16",
+      },
+    ],
   },
   Dolci: {
     Pomigliano: [

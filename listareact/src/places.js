@@ -72,6 +72,11 @@ export const places = {
         name: "Decimo morso",
         menu: "https://www.decimomorso.it/",
         dateAdded: "2024-05-13",
+      },
+      {
+        url: "https://www.instagram.com/amore.e.tradizione.ristorante/",
+        name: "Amore e tradizione",
+        dateAdded: "2024-05-16",
       }
     ],
     Somma_Vesuviana: [
@@ -596,6 +601,12 @@ export const places = {
         name: "Paninoteca mato matò",
         dateAdded: "2024-03-21",
       },
+      {
+        url: "https://www.instagram.com/ledanzatricipizzeria/",
+        name: "Le danzatrici pizzeria",
+        dateAdded: "2024-05-16",
+        menu: "https://linktr.ee/ledanzatrici",
+      }
     ],
     Madonna_Arco: [
       {
@@ -656,6 +667,12 @@ export const places = {
         name: "Villa Giovanna",
         dateAdded: "2024-04-10",
       },
+      {
+        url: "https://www.instagram.com/sciuesciue_ottaviano/",
+        name: "Sciue Sciue",
+        dateAdded: "2024-05-16",
+        menu: "https://www.instagram.com/stories/highlights/18212079355276373/",
+      }
     ],
     Gragnano: [
       {
@@ -704,6 +721,12 @@ export const places = {
         name: "12 Morsi",
         dateAdded: "2024-04-23",
         menu: "https://linktr.ee/12morsilink",
+      },
+      {
+        url: "https://www.instagram.com/lofficinadeisapori_caserta/",
+        name: "L'officina Dei Sapori",
+        menu: "https://www.instagram.com/stories/highlights/18020934140227969/",
+        dateAdded: "2024-05-16",
       },
     ],
     Boscotrecase: [

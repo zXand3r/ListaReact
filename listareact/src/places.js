@@ -62,6 +62,12 @@ export const places = {
         dateAdded: "2024-03-22",
       },
       {
+        url: "https://www.instagram.com/shameless_pub/",
+        menu: "https://shamelesspub.it/",
+        name: "Shameless Pub",
+        dateAdded: "2024-03-22",
+      },
+      {
         url: "https://www.instagram.com/thesign_pomigliano",
         name: "The Sign",
         menu: "https://thesign.pub/menu-pomigliano/",
@@ -397,6 +403,12 @@ export const places = {
         dateAdded: "2024-05-13",
         menu: "https://thepennyblackpub.it/",
       },
+      {
+        url: "https://www.instagram.com/lacampagnolapizzeria/",
+        name: "La campagnola",
+        dateAdded: "2024-05-17",
+        menu: "https://lacampagnola.cookiewebagency.com/",
+      },
     ],
     San_Vitaliano: [
       {
@@ -589,6 +601,11 @@ export const places = {
         url: "https://www.instagram.com/ingordo_burger/",
         name: "Ingordo Burger",
         dateAdded: "2024-04-26",
+      },
+      {
+        url: "https://www.instagram.com/beerhouse_arcadepub/",
+        name: "Beerhouse",
+        dateAdded: "2024-05-17",
       },
     ],
     Ercolano: [

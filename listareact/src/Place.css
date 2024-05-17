@@ -26,7 +26,7 @@
    position: absolute; /* Posizione assoluta per sovrapporre la scritta "new" */
    top: 0; /* Posiziona la scritta in alto */
    right: 0; /* Posiziona la scritta a destra */
-   background-color: red; /* Colore di sfondo per la scritta "new" */
+   background-color: rgba(255, 0, 0, 0.66); /* Colore di sfondo per la scritta "new" */
    color: white; /* Colore del testo per la scritta "new" */
    padding: 3px 6px; /* Padding per la scritta "new" */
    font-size: 18px; /* Dimensione del carattere per la scritta "new" */
@@ -40,10 +40,13 @@
    padding: 8px;
 }
 
-.container a:hover {
+.container a:hover{
    transition: 0.3s ease-in-out; /* Aggiungi una transizione al cambio di colore */
    transform: scale(1.1); /* Effetto di ingrandimento al passaggio del mouse */
-   color: whitesmoke;
+}
+
+.container a {
+   transition: 0.3s ease-in-out;
 }
 
 .menuButton {

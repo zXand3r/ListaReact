@@ -805,6 +805,11 @@ export const places = {
         name: "Pizzeria alfa",
         dateAdded: "2024-04-26",
       },
+      {
+        url: "https://www.instagram.com/most_discopub/",
+        name: "Most Disco Pub",
+        dateAdded: "2024-05-20",
+      }
     ],
   },
   Drink: {

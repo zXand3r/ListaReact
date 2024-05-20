@@ -97,7 +97,7 @@ function App() {
         className="toggleNotificationButton"
         onClick={toggleNotifications}
       >
-        {toggleNotification ? "Nascondi nuovi posti" : "Mostra nuovi posti"}
+        {toggleNotification ? "Nascondi" : "Mostra i nuovi posti aggiunti"}
       </button>
       {toggleNotification &&
         (newPlacesAdded.length > 0 ? (

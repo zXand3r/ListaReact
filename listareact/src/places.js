@@ -409,6 +409,12 @@ export const places = {
         dateAdded: "2024-05-17",
         menu: "https://lacampagnola.cookiewebagency.com/",
       },
+      {
+        url: "https://www.instagram.com/gorillasburger_napoli/",
+        name: "Gorillas Burger",
+        dateAdded: "2024-05-20",
+        menu: "https://www.instagram.com/stories/highlights/17930498369783870/",
+      },
     ],
     San_Vitaliano: [
       {

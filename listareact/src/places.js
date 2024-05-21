@@ -613,6 +613,12 @@ export const places = {
         name: "Beerhouse",
         dateAdded: "2024-05-17",
       },
+      {
+        url: "https://www.instagram.com/mezzocolpoburger/",
+        name: "Mezzocolpo Burger",
+        dateAdded: "2024-05-21",
+        menu: "https://booxit.it/sharelinks/mezzocolpopontecagnano",
+      }
     ],
     Ercolano: [
       {

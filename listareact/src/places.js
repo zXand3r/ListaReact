@@ -210,6 +210,12 @@ export const places = {
         menu: "https://www.touchprint.cloud/menu/chiubarbecue.pdf",
         name: "Chiù Barbecue",
       },
+      {
+        url: "https://www.instagram.com/ladolcevitasantanastasia/",
+        name: "La dolce vita",
+        menu: "https://www.ladolcevitasantanastasia.com/",
+        dateAdded: "2024-05-30"
+      }
     ],
     Castellammare: [
       {
@@ -230,6 +236,11 @@ export const places = {
         name: "Mr Pollo",
         dateAdded: "2024-03-21",
       },
+      {
+        url: "https://www.instagram.com/keburgercmare/",
+        name: "Ke Burger",
+        dateAdded: "2024-05-30",
+      }
     ],
     San_Marzano: [
       {
@@ -415,6 +426,11 @@ export const places = {
         dateAdded: "2024-05-20",
         menu: "https://www.instagram.com/stories/highlights/17930498369783870/",
       },
+      {
+        url: "https://www.instagram.com/tortorachiaia/",
+        name: "Tortora Chiaia",
+        dateAdded: "2024-05-30",
+      }
     ],
     San_Vitaliano: [
       {
@@ -453,6 +469,12 @@ export const places = {
         menu: "https://sashisteakhouse.my.canva.site/home",
         dateAdded: "2024-04-19",
       },
+      {
+        url: "https://www.instagram.com/pizzeria_maggie_la_capricciosa/",
+        name: "Pizzeria Maggie",
+        menu: "https://www.maggielacapricciosa.it/",
+        dateAdded: "2024-05-30",
+      }
     ],
     Pompei: [
       {
@@ -815,6 +837,11 @@ export const places = {
         url: "https://www.instagram.com/most_discopub/",
         name: "Most Disco Pub",
         dateAdded: "2024-05-20",
+      },
+      {
+        url: "https://www.instagram.com/osteriaomarenaro/",
+        name: "Osteria O' Marenaro",
+        dateAdded: "2024-05-30",
       }
     ],
   },
@@ -927,6 +954,20 @@ export const places = {
         dateAdded: "2024-05-16",
       },
     ],
+    Giugliano_Campania: [
+      {
+        url: "https://www.instagram.com/_crystalcafe_/",
+        name: "Crystal Cafè",
+        menu: "https://www.facebook.com/crystalcafefanpage/menu",
+        dateAdded: "2024-05-30",
+      },
+      {
+        url: "https://www.instagram.com/mybreakbistrot/",
+        name: "My Break Bistrot",
+        dateAdded: "2024-05-30",
+
+      }
+    ]
   },
   Dolci: {
     Pomigliano: [

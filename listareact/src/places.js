@@ -83,7 +83,7 @@ export const places = {
         url: "https://www.instagram.com/amore.e.tradizione.ristorante/",
         name: "Amore e tradizione",
         dateAdded: "2024-05-16",
-      }
+      },
     ],
     Somma_Vesuviana: [
       {
@@ -214,8 +214,8 @@ export const places = {
         url: "https://www.instagram.com/ladolcevitasantanastasia/",
         name: "La dolce vita",
         menu: "https://www.ladolcevitasantanastasia.com/",
-        dateAdded: "2024-05-30"
-      }
+        dateAdded: "2024-05-30",
+      },
     ],
     Castellammare: [
       {
@@ -240,7 +240,13 @@ export const places = {
         url: "https://www.instagram.com/keburgercmare/",
         name: "Ke Burger",
         dateAdded: "2024-05-30",
-      }
+      },
+      {
+        url: "https://www.instagram.com/cupptie.risto.streetfood/",
+        name: "Cupptie Risto Streetfood",
+        dateAdded: "2024-06-05",
+        menu: "https://www.qodeup.com/index.php/home/index/cupptiestreetfooderestaurant/it/2326",
+      },
     ],
     San_Marzano: [
       {
@@ -430,7 +436,7 @@ export const places = {
         url: "https://www.instagram.com/tortorachiaia/",
         name: "Tortora Chiaia",
         dateAdded: "2024-05-30",
-      }
+      },
     ],
     San_Vitaliano: [
       {
@@ -474,7 +480,7 @@ export const places = {
         name: "Pizzeria Maggie",
         menu: "https://www.maggielacapricciosa.it/",
         dateAdded: "2024-05-30",
-      }
+      },
     ],
     Pompei: [
       {
@@ -640,7 +646,7 @@ export const places = {
         name: "Mezzocolpo Burger",
         dateAdded: "2024-05-21",
         menu: "https://booxit.it/sharelinks/mezzocolpopontecagnano",
-      }
+      },
     ],
     Ercolano: [
       {
@@ -657,7 +663,7 @@ export const places = {
         name: "Le danzatrici pizzeria",
         dateAdded: "2024-05-16",
         menu: "https://linktr.ee/ledanzatrici",
-      }
+      },
     ],
     Madonna_Arco: [
       {
@@ -723,7 +729,7 @@ export const places = {
         name: "Sciue Sciue",
         dateAdded: "2024-05-16",
         menu: "https://www.instagram.com/stories/highlights/18212079355276373/",
-      }
+      },
     ],
     Gragnano: [
       {
@@ -842,7 +848,13 @@ export const places = {
         url: "https://www.instagram.com/osteriaomarenaro/",
         name: "Osteria O' Marenaro",
         dateAdded: "2024-05-30",
-      }
+      },
+      {
+        url: "https://www.instagram.com/_meatyou/",
+        name: "Meat You",
+        dateAdded: "2024-06-05",
+        menu: "https://delivery.netfood.cloud/app/meatyoumenu/#!/",
+      },
     ],
   },
   Drink: {
@@ -965,9 +977,8 @@ export const places = {
         url: "https://www.instagram.com/mybreakbistrot/",
         name: "My Break Bistrot",
         dateAdded: "2024-05-30",
-
-      }
-    ]
+      },
+    ],
   },
   Dolci: {
     Pomigliano: [

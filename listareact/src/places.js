@@ -123,6 +123,11 @@ export const places = {
         name: "Operhaclub",
         dateAdded: "2024-04-16",
       },
+      {
+        url: "https://www.instagram.com/oven_king_pizzeria/",
+        name: "Oven King",
+        dateAdded: "2024-06-17",
+      }
     ],
     Torre_Annunziata: [
       {
@@ -792,6 +797,13 @@ export const places = {
         name: "Prisco Pizza",
       },
     ],
+    Boscoreale: [
+      {
+        url: "https://www.instagram.com/capassoboscoreale/",
+        name: "Capasso Trattoria",
+        dateAdded: "2024-06-17",
+      },
+    ],
     Giugliano_Campania: [
       {
         url: "https://www.instagram.com/putecaburger/",
@@ -893,6 +905,11 @@ export const places = {
         dateAdded: "2024-04-30",
         menu: "https://www.labyrinthbirreria.it",
       },
+      {
+        url: "https://www.instagram.com/tombino_urbansaloon/",
+        name: "Tombino Urbansaloon",
+        dateAdded: "2024-06-17",
+      }
     ],
     Torre_Del_Greco: [
       {

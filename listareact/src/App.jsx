@@ -110,7 +110,9 @@ function App() {
                     color: "#3fade9",
                     fontWeight: "bolder",
                     fontStyle: "italic",
+                    cursor: "pointer",
                   }}
+                  onClick={() => setSearchText(newPlace.city)}
                 >
                   {newPlace.city}
                 </span>{" "}

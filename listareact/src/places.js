@@ -194,6 +194,12 @@ export const places = {
         menu: "https://icarnaloni.it/",
         name: "I Carnaloni",
       },
+      {
+        url: "https://www.instagram.com/grandmabigburgers/",
+        name: "Grandma Big Burgers",
+        menu: "https://www.instagram.com/stories/highlights/18011381041707868/",
+        dateAdded: "2024-06-26",
+      }
     ],
     Sant_Anastasia: [
       {
@@ -355,11 +361,6 @@ export const places = {
         name: "Bomber Food",
       },
       {
-        url: "https://instagram.com/revolutionpubegrill",
-        menu: "https://www.revolutionpubegrill.it/menu-revolution/",
-        name: "Revolution Pub",
-      },
-      {
         url: "https://instagram.com/12morsi",
         menu: "https://linktr.ee/12morsilink",
         name: "12 Morsi",
@@ -442,6 +443,12 @@ export const places = {
         name: "Tortora Chiaia",
         dateAdded: "2024-05-30",
       },
+      {
+        url: "https://www.instagram.com/tacosmexfusion/",
+        name: "Tacos Mexfusion",
+        dateAdded: "2024-06-26",
+        menu: "https://tacosmexfusion.it/"
+      }
     ],
     San_Vitaliano: [
       {
@@ -527,6 +534,12 @@ export const places = {
         url: "https://www.instagram.com/ristoranteshavalpompei/",
         name: "Ristorante Shaval",
         dateAdded: "2024-04-24",
+      },
+      {
+        url: "https://www.instagram.com/alleria_pompei/",
+        name: "Alleria",
+        dateAdded: "2024-06-26",
+        menu: "https://alleriapompei.it/index.php/menu",
       },
     ],
     Santa_Maria_la_Carità: [
@@ -700,6 +713,12 @@ export const places = {
         dateAdded: "2024-04-26",
         menu: "https://bit.ly/m/bluespizza",
       },
+      {
+        url: "https://www.instagram.com/kmzerofoodangri/",
+        name: "Kmzero Food",
+        dateAdded: "2024-06-26",
+        menu: "https://www.instagram.com/stories/highlights/17852738922068959/",
+      }
     ],
     Sarno: [
       {
@@ -790,6 +809,12 @@ export const places = {
         menu: "https://www.instagram.com/stories/highlights/18020934140227969/",
         dateAdded: "2024-05-16",
       },
+      {
+        url: "https://www.instagram.com/thaddeus_caserta/",
+        name: "Thaddeus",
+        menu: "https://bento.me/thaddeuscaserta",
+        dateAdded: "2024-06-26",
+      }
     ],
     Boscotrecase: [
       {
@@ -867,7 +892,91 @@ export const places = {
         dateAdded: "2024-06-05",
         menu: "https://delivery.netfood.cloud/app/meatyoumenu/#!/",
       },
+      {
+        url: "https://www.instagram.com/cipajopub/",
+        name: "Cipajo Pub",
+        dateAdded: "2024-06-26",
+        menu: "https://linktr.ee/cipajopub",
+      }
     ],
+    Cava_Tirreni: [
+      {
+        url: "https://www.instagram.com/26hamburger_delicious/",
+        name: "26 Hamburger Delicious",
+        dateAdded: "2024-06-26",
+      }
+    ],
+    Acerra: [
+      {
+        url: "https://www.instagram.com/pasida.acerra/",
+        name: "Pasida",
+        dateAdded: "2024-06-26",
+      }
+    ],
+    Frattamaggiore:[
+      {
+        url: "https://www.instagram.com/cocoblancoofficial/",
+        name: "Coco Blanco",
+        dateAdded: "2024-06-26",
+      }
+    ],
+    Frattaminore: [
+      {
+        url: "https://www.instagram.com/paquitoastburger/",
+        name: "Paquitoast Burger",
+        dateAdded: "2024-06-26",
+        menu: "https://www.mbs-srl.com/menu/PaquiToast.pdf"
+      }
+    ],
+    Volla: [
+      {
+        url: "https://www.instagram.com/cosmopolitanfusionmexicangrill/",
+        name: "Cosmopolitan Fusion",
+        dateAdded: "2024-06-26",
+        menu: "https://cosmopolitan.orderin.it/",
+      }
+    ],
+    Villaricca: [
+      {
+        url: "https://www.instagram.com/carbonaosteriaepizzeria/",
+        name: "Carbona Osteria E Pizzeria",
+        dateAdded: "2024-06-26",
+      },
+      {
+        url: "https://www.instagram.com/redhawkfoodstore/",
+        name: "Red Hawk Food Store",
+        dateAdded: "2024-06-26",
+        menu: "https://www.instagram.com/p/C0cVr1tIcBv/?img_index=1",
+      }
+    ],
+    Melito_Napoli: [
+      {
+        url: "https://www.instagram.com/michelebottapizzeria/",
+        name: "Michele Botta Pizzeria",
+        dateAdded: "2024-06-26",
+        menu: "https://l.instagram.com/?u=https%3A%2F%2Fbit.ly%2Fmenu_pizzeriabotta&e=AT37q3yQgho6Ubv1GSp7kC9aMuXlRDx-oZRFjpEEnovhhTLAqPyJ8QAyDF3WetOxyc7Ek4uJ1n8Ols8HHaz516XbQORxAGcmgkrKgA",
+      }
+    ],
+    Casoria: [
+      {
+        url: "https://www.instagram.com/lacaserecciaexperience/",
+        name: "La Casereccia Experience",
+        dateAdded: "2024-06-26",
+      }
+    ],
+    Vomero: [
+      {
+        url: "https://www.instagram.com/iacolaburgerbeer/",
+        name: "Iacolo Burger Beer",
+        dateAdded: "2024-06-26",
+        menu: "https://drive.google.com/file/d/1FWP9OXqbGS2PBXV4Zgi0QpnF9KwH30i4/view",
+      },
+      {
+        url: "https://instagram.com/revolutionpubegrill",
+        menu: "https://www.revolutionpubegrill.it/menu-revolution/",
+        name: "Revolution Pub",
+      },
+    ]
   },
   Drink: {
     Pomigliano: [
@@ -958,6 +1067,11 @@ export const places = {
         name: "Drink Iamo",
         dateAdded: "2024-04-10",
       },
+      {
+        url: "https://www.instagram.com/loungebar_banchinaalessandro/",
+        name: "Banchina Alessandro",
+        dateAdded: "2024-06-26",
+      }
     ],
     Somma_Vesuviana: [
       {
@@ -974,6 +1088,12 @@ export const places = {
         dateAdded: "2024-05-13",
         menu: "https://www.instagram.com/stories/highlights/18115051636356164/",
       },
+      {
+        url: "https://www.instagram.com/thejungle_napoli/",
+        name: "The Jungle",
+        dateAdded: "2024-06-126",
+        menu: "https://thejunglenapoli.it/?lang=it",
+      }
     ],
     Palma_Campania: [
       {

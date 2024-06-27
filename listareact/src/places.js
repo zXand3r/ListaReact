@@ -448,6 +448,24 @@ export const places = {
         name: "Tacos Mexfusion",
         dateAdded: "2024-06-26",
         menu: "https://tacosmexfusion.it/"
+      },
+      {
+        url: "https://www.instagram.com/royalbeefsburger/",
+        name: "Royal Beef's Burger",
+        dateAdded: "2024-06-27",
+        menu: "https://www.instagram.com/stories/highlights/18046300726377784/",
+      },
+      {
+        url: "https://www.instagram.com/gustusnapoli/",
+        name: "Gustus",
+        dateAdded: "2024-06-27",
+        menu: "https://linktr.ee/gustusnapoli",
+      },
+      {
+        url: "https://www.instagram.com/sofisticato29/",
+        name: "Sofisticato 29",
+        dateAdded: "2024-06-27",
+        menu: "https://www.sofisticatopub.it/",
       }
     ],
     San_Vitaliano: [
@@ -814,6 +832,12 @@ export const places = {
         name: "Thaddeus",
         menu: "https://bento.me/thaddeuscaserta",
         dateAdded: "2024-06-26",
+      },
+      {
+        url: "https://www.instagram.com/radiciclandestine/",
+        name: "Radiciclandestine",
+        menu: "https://radiciclandestine.com/",
+        dateAdded: "2024-06-27",
       }
     ],
     Boscotrecase: [
@@ -918,6 +942,11 @@ export const places = {
         url: "https://www.instagram.com/cocoblancoofficial/",
         name: "Coco Blanco",
         dateAdded: "2024-06-26",
+      },
+      {
+        url: "https://www.instagram.com/centodiecigradi_bbq/",
+        name: "Centodieci gradi",
+        dateAdded: "2024-06-27",
       }
     ],
     Frattaminore: [
@@ -962,6 +991,12 @@ export const places = {
         url: "https://www.instagram.com/lacaserecciaexperience/",
         name: "La Casereccia Experience",
         dateAdded: "2024-06-26",
+      },
+      {
+        url: "https://www.instagram.com/royalbeefsburger/",
+        name: "Royal Beef's Burger",
+        dateAdded: "2024-06-27",
+        menu: "https://www.instagram.com/stories/highlights/18046300726377784/",
       }
     ],
     Vomero: [
@@ -976,6 +1011,12 @@ export const places = {
         menu: "https://www.revolutionpubegrill.it/menu-revolution/",
         name: "Revolution Pub",
       },
+      {
+        url: "https://www.instagram.com/mostobirrerie/",
+        name: "Mosto Birrerie",
+        dateAdded: "2024-06-27",
+        menu: "https://linktr.ee/mostobirrerie",
+      }
     ]
   },
   Drink: {
@@ -1116,6 +1157,19 @@ export const places = {
         dateAdded: "2024-05-30",
       },
     ],
+    Caserta: [
+      {
+        url: "https://www.instagram.com/beerhouse_caserta/",
+        name: "Beerhouse Caserta",
+        dateAdded: "2024-06-27",
+      },
+      {
+        url: "https://www.instagram.com/ufficio.reclami/",
+        name: "Ufficio Reclami",
+        dateAdded: "2024-06-27",
+        menu: "https://www.ufficioreclami.beer/welcome/"
+      }
+    ]
   },
   Dolci: {
     Pomigliano: [

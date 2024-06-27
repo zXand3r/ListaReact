@@ -93,12 +93,6 @@ function App() {
 
   return (
     <div className="mainContainer">
-      <button
-        className="toggleNotificationButton"
-        onClick={toggleNotifications}
-      >
-        {toggleNotification ? "Nascondi" : "Mostra i nuovi posti aggiunti"}
-      </button>
       {toggleNotification &&
         (newPlacesAdded.length > 0 ? (
           <ul className="notification">
@@ -112,7 +106,7 @@ function App() {
                     fontStyle: "italic",
                     cursor: "pointer",
                   }}
-                  onClick={() => setSearchText(newPlace.city)}
+                  onClick={() => {setSearchText(newPlace.city); toggleNotifications()}}
                 >
                   {newPlace.city}
                 </span>{" "}
@@ -134,6 +128,12 @@ function App() {
             😄
           </h3>
         ))}
+        <button
+        className="toggleNotificationButton"
+        onClick={toggleNotifications}
+      >
+        {toggleNotification ? "Nascondi" : "Mostra i nuovi posti aggiunti"}
+      </button>
       <div className="searchBar">
         <input
           className="input"

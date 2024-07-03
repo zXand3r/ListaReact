@@ -353,6 +353,12 @@ export const places = {
         dateAdded: "2024-04-24",
         menu: "https://bit.ly/43UZxVr",
       },
+      {
+        url: "https://www.instagram.com/malto_d_oro/",
+        name: "Malto d'Oro",
+        dateAdded: "2024-07-03",
+        menu: "https://brandboxitalia.it/menu-malto-doro/",
+      }
     ],
     Napoli: [
       {
@@ -947,6 +953,17 @@ export const places = {
         url: "https://www.instagram.com/centodiecigradi_bbq/",
         name: "Centodieci gradi",
         dateAdded: "2024-06-27",
+      },
+      {
+        url: "https://www.instagram.com/patatapubfood/",
+        name: "Patata Pub Food",
+        dateAdded: "2024-07-03",
+        menu: "https://xn--patat-vqa.com/"
+      },
+      {
+        url: "https://www.instagram.com/la_cuopperia/",
+        name: "La Cuopperia",
+        dateAdded: "2024-07-03",
       }
     ],
     Frattaminore: [
@@ -1016,6 +1033,20 @@ export const places = {
         name: "Mosto Birrerie",
         dateAdded: "2024-06-27",
         menu: "https://linktr.ee/mostobirrerie",
+      }
+    ],
+    Quarto: [
+      {
+        url: "https://www.instagram.com/blowbraceria/",
+        name: "Blow Braceria",
+        dateAdded: "2024-07-03",
+      }  
+    ],
+    Marano: [
+      {
+        url: "https://www.instagram.com/mrfelicita_0/",
+        name: "Mr. Felicita",
+        dateAdded: "2024-07-03",
       }
     ]
   },
@@ -1225,5 +1256,13 @@ export const places = {
         name: "Nouveauelementi Design",
       },
     ],
+    Salerno: [
+      {
+        url: "https://www.instagram.com/pasticceriamansi/",
+        dateAdded: "2024-07-03",
+        name: "Pasticceria Mansi",
+        menu: "https://pasticceriamansi.it/"
+      }
+    ]
   },
 };

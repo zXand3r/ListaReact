@@ -127,7 +127,7 @@ export const places = {
         url: "https://www.instagram.com/oven_king_pizzeria/",
         name: "Oven King",
         dateAdded: "2024-06-17",
-      }
+      },
     ],
     Torre_Annunziata: [
       {
@@ -199,7 +199,7 @@ export const places = {
         name: "Grandma Big Burgers",
         menu: "https://www.instagram.com/stories/highlights/18011381041707868/",
         dateAdded: "2024-06-26",
-      }
+      },
     ],
     Sant_Anastasia: [
       {
@@ -358,6 +358,18 @@ export const places = {
         name: "Malto d'Oro",
         dateAdded: "2024-07-03",
         menu: "https://brandboxitalia.it/menu-malto-doro/",
+      },
+      {
+        url: "https://www.instagram.com/maniinpanuozzotoast_nola/",
+        name: "Mani in Panuozzo toast",
+        dateAdded: "2024-07-10",
+        menu: "https://www.instagram.com/stories/highlights/18011103227402482/",
+      },
+      {
+        url:"https://www.instagram.com/basta.pizzeria/",
+        name: "Basta Pizzeria",
+        dateAdded: "2024-07-10",
+        menu: "https://linktr.ee/pizzeriabasta",
       }
     ],
     Napoli: [
@@ -453,7 +465,7 @@ export const places = {
         url: "https://www.instagram.com/tacosmexfusion/",
         name: "Tacos Mexfusion",
         dateAdded: "2024-06-26",
-        menu: "https://tacosmexfusion.it/"
+        menu: "https://tacosmexfusion.it/",
       },
       {
         url: "https://www.instagram.com/royalbeefsburger/",
@@ -472,7 +484,7 @@ export const places = {
         name: "Sofisticato 29",
         dateAdded: "2024-06-27",
         menu: "https://www.sofisticatopub.it/",
-      }
+      },
     ],
     San_Vitaliano: [
       {
@@ -564,6 +576,12 @@ export const places = {
         name: "Alleria",
         dateAdded: "2024-06-26",
         menu: "https://alleriapompei.it/index.php/menu",
+      },
+      {
+        url: "https://www.instagram.com/pompeicentrale/",
+        name: "Pompei Centrale",
+        dateAdded: "2024-07-10",
+        menu: "https://www.pompeicentrale.it/",
       },
     ],
     Santa_Maria_la_Carità: [
@@ -742,7 +760,7 @@ export const places = {
         name: "Kmzero Food",
         dateAdded: "2024-06-26",
         menu: "https://www.instagram.com/stories/highlights/17852738922068959/",
-      }
+      },
     ],
     Sarno: [
       {
@@ -844,7 +862,19 @@ export const places = {
         name: "Radiciclandestine",
         menu: "https://radiciclandestine.com/",
         dateAdded: "2024-06-27",
-      }
+      },
+      {
+        url: "https://www.instagram.com/thekocsi/",
+        name: "The Kocsi",
+        menu: "https://linktr.ee/thekocsi",
+        dateAdded: "2024-07-10",
+      },
+      {
+        url: "https://www.instagram.com/casacavalieripizzeria/",
+        name: "Casa cavalieri pizzeria",
+        dateAdded: "2024-07-10",
+        menu: "https://linktr.ee/pizzeriacasacavalieri",
+      },
     ],
     Boscotrecase: [
       {
@@ -927,23 +957,23 @@ export const places = {
         name: "Cipajo Pub",
         dateAdded: "2024-06-26",
         menu: "https://linktr.ee/cipajopub",
-      }
+      },
     ],
     Cava_Tirreni: [
       {
         url: "https://www.instagram.com/26hamburger_delicious/",
         name: "26 Hamburger Delicious",
         dateAdded: "2024-06-26",
-      }
+      },
     ],
     Acerra: [
       {
         url: "https://www.instagram.com/pasida.acerra/",
         name: "Pasida",
         dateAdded: "2024-06-26",
-      }
+      },
     ],
-    Frattamaggiore:[
+    Frattamaggiore: [
       {
         url: "https://www.instagram.com/cocoblancoofficial/",
         name: "Coco Blanco",
@@ -958,21 +988,21 @@ export const places = {
         url: "https://www.instagram.com/patatapubfood/",
         name: "Patata Pub Food",
         dateAdded: "2024-07-03",
-        menu: "https://xn--patat-vqa.com/"
+        menu: "https://xn--patat-vqa.com/",
       },
       {
         url: "https://www.instagram.com/la_cuopperia/",
         name: "La Cuopperia",
         dateAdded: "2024-07-03",
-      }
+      },
     ],
     Frattaminore: [
       {
         url: "https://www.instagram.com/paquitoastburger/",
         name: "Paquitoast Burger",
         dateAdded: "2024-06-26",
-        menu: "https://www.mbs-srl.com/menu/PaquiToast.pdf"
-      }
+        menu: "https://www.mbs-srl.com/menu/PaquiToast.pdf",
+      },
     ],
     Volla: [
       {
@@ -980,7 +1010,7 @@ export const places = {
         name: "Cosmopolitan Fusion",
         dateAdded: "2024-06-26",
         menu: "https://cosmopolitan.orderin.it/",
-      }
+      },
     ],
     Villaricca: [
       {
@@ -993,7 +1023,7 @@ export const places = {
         name: "Red Hawk Food Store",
         dateAdded: "2024-06-26",
         menu: "https://www.instagram.com/p/C0cVr1tIcBv/?img_index=1",
-      }
+      },
     ],
     Melito_Napoli: [
       {
@@ -1001,7 +1031,7 @@ export const places = {
         name: "Michele Botta Pizzeria",
         dateAdded: "2024-06-26",
         menu: "https://l.instagram.com/?u=https%3A%2F%2Fbit.ly%2Fmenu_pizzeriabotta&e=AT37q3yQgho6Ubv1GSp7kC9aMuXlRDx-oZRFjpEEnovhhTLAqPyJ8QAyDF3WetOxyc7Ek4uJ1n8Ols8HHaz516XbQORxAGcmgkrKgA",
-      }
+      },
     ],
     Casoria: [
       {
@@ -1014,7 +1044,7 @@ export const places = {
         name: "Royal Beef's Burger",
         dateAdded: "2024-06-27",
         menu: "https://www.instagram.com/stories/highlights/18046300726377784/",
-      }
+      },
     ],
     Vomero: [
       {
@@ -1033,6 +1063,11 @@ export const places = {
         name: "Mosto Birrerie",
         dateAdded: "2024-06-27",
         menu: "https://linktr.ee/mostobirrerie",
+      },
+      {
+        url: "https://www.instagram.com/21_biergrube/",
+        name: "21 Biergrube",
+        dateAdded: "2024-07-10",
       }
     ],
     Quarto: [
@@ -1040,15 +1075,15 @@ export const places = {
         url: "https://www.instagram.com/blowbraceria/",
         name: "Blow Braceria",
         dateAdded: "2024-07-03",
-      }  
+      },
     ],
     Marano: [
       {
         url: "https://www.instagram.com/mrfelicita_0/",
         name: "Mr. Felicita",
         dateAdded: "2024-07-03",
-      }
-    ]
+      },
+    ],
   },
   Drink: {
     Pomigliano: [
@@ -1090,7 +1125,7 @@ export const places = {
         url: "https://www.instagram.com/tombino_urbansaloon/",
         name: "Tombino Urbansaloon",
         dateAdded: "2024-06-17",
-      }
+      },
     ],
     Torre_Del_Greco: [
       {
@@ -1143,7 +1178,7 @@ export const places = {
         url: "https://www.instagram.com/loungebar_banchinaalessandro/",
         name: "Banchina Alessandro",
         dateAdded: "2024-06-26",
-      }
+      },
     ],
     Somma_Vesuviana: [
       {
@@ -1165,7 +1200,7 @@ export const places = {
         name: "The Jungle",
         dateAdded: "2024-06-126",
         menu: "https://thejunglenapoli.it/?lang=it",
-      }
+      },
     ],
     Palma_Campania: [
       {
@@ -1198,9 +1233,15 @@ export const places = {
         url: "https://www.instagram.com/ufficio.reclami/",
         name: "Ufficio Reclami",
         dateAdded: "2024-06-27",
-        menu: "https://www.ufficioreclami.beer/welcome/"
-      }
-    ]
+        menu: "https://www.ufficioreclami.beer/welcome/",
+      },
+      {
+        url: "https://www.instagram.com/mixtura_caserta/",
+        name: "Mixtura Caserta",
+        dateAdded: "2024-07-10",
+        menu: "https://www.localismart.it/mixtura/",
+      },
+    ],
   },
   Dolci: {
     Pomigliano: [
@@ -1261,8 +1302,8 @@ export const places = {
         url: "https://www.instagram.com/pasticceriamansi/",
         dateAdded: "2024-07-03",
         name: "Pasticceria Mansi",
-        menu: "https://pasticceriamansi.it/"
-      }
-    ]
+        menu: "https://pasticceriamansi.it/",
+      },
+    ],
   },
 };

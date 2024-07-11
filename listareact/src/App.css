@@ -253,3 +253,12 @@
   justify-content: center;
   align-self: center;
 }
+
+.dropdown {
+  margin: 10px 0;
+}
+
+.dropdown select {
+  padding: 10px;
+  font-size: 16px;
+}

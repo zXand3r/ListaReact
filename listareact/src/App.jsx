@@ -14,6 +14,7 @@ function App() {
   const [toggleNotification, setToggleNotification] = useState(false);
   const [showScrollButton, setShowScrollButton] = useState(false);
   const [lastUpdated, setLastUpdated] = useState(new Date());
+  const [selectedCategory, setSelectedCategory] = useState("");
 
   useEffect(() => {
     const newPlaces = [];
@@ -91,6 +92,16 @@ function App() {
     return formattedDate;
   };
 
+  const handleCategoryChange = (event) => {
+    setSelectedCategory(event.target.value);
+  };
+
+  const handleNotificationClick = (city) => {
+    setSearchText(city);
+    setSelectedCategory("");
+    toggleNotifications();
+  };
+
   return (
     <div className="mainContainer">
       {toggleNotification &&
@@ -106,7 +117,7 @@ function App() {
                     fontStyle: "italic",
                     cursor: "pointer",
                   }}
-                  onClick={() => {setSearchText(newPlace.city); toggleNotifications()}}
+                  onClick={() => handleNotificationClick(newPlace.city)}
                 >
                   {newPlace.city}
                 </span>{" "}
@@ -162,6 +173,16 @@ function App() {
           </button>
         )}
       </div>
+      <div className="dropdown">
+        <select value={selectedCategory} onChange={handleCategoryChange}>
+          <option value="">Tutte le categorie</option>
+          {Object.keys(places).map((category) => (
+            <option key={category} value={category}>
+              {category}
+            </option>
+          ))}
+        </select>
+      </div>
       <div className="lastUpdated">
         Ultimo aggiornamento: {formatDate(lastUpdated)}
       </div>
@@ -174,6 +195,7 @@ function App() {
             cities={places[category]}
             searchText={searchText}
             searchTextPlace={searchTextPlace}
+            selectedCategory={selectedCategory}
           />
         ))}
       </div>

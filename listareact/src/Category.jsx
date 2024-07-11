@@ -2,7 +2,12 @@ import React from "react";
 import { PlaceList } from "./PlaceList";
 import "./Category.css";
 
-export function Category({ category, cities, searchText, searchTextPlace }) {
+export function Category({ category, cities, searchText, searchTextPlace, selectedCategory }) {
+  // Filtra la categoria selezionata
+  if (selectedCategory && category !== selectedCategory) {
+    return null;
+  }
+
   const filteredCities = Object.keys(cities).filter((city) =>
     city.toLowerCase().includes(searchText.toLowerCase())
   );

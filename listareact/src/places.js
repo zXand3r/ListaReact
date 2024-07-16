@@ -370,6 +370,12 @@ export const places = {
         name: "Basta Pizzeria",
         dateAdded: "2024-07-10",
         menu: "https://linktr.ee/pizzeriabasta",
+      },
+      {
+        url: "https://www.instagram.com/bertiesbistrotvalentino_b/",
+        name: "Berties Bistrot Valentino",
+        dateAdded: "2024-07-16",
+        menu: "https://www.bertiesbistrot.it/",
       }
     ],
     Napoli: [
@@ -888,6 +894,12 @@ export const places = {
         name: "Capasso Trattoria",
         dateAdded: "2024-06-17",
       },
+      {
+        url: "https://www.instagram.com/pizzeriaelsier/",
+        name: "Pizzeria Elsier",
+        menu: "https://www.instagram.com/stories/highlights/17952177938180398/",
+        dateAdded: "2024-07-16",
+      }
     ],
     Giugliano_Campania: [
       {
@@ -1045,6 +1057,11 @@ export const places = {
         dateAdded: "2024-06-27",
         menu: "https://www.instagram.com/stories/highlights/18046300726377784/",
       },
+      {
+        url: "https://www.instagram.com/offlineristobistrot/",
+        name: "Offlineristo Bistrot",
+        dateAdded: "2024-07-16",
+      }
     ],
     Vomero: [
       {

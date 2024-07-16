@@ -1259,6 +1259,13 @@ export const places = {
         menu: "https://www.localismart.it/mixtura/",
       },
     ],
+    Nola: [
+      {
+        url: "https://www.instagram.com/nouveauelementididesign/",
+        dateAdded: "2024-04-11",
+        name: "Nouveauelementi Design",
+      },
+    ],
   },
   Dolci: {
     Pomigliano: [
@@ -1305,13 +1312,6 @@ export const places = {
         dateAdded: "2024-04-05",
         name: "Da Guly",
         menu: "https://bit.ly/3uBxr1f",
-      },
-    ],
-    Nola: [
-      {
-        url: "https://www.instagram.com/nouveauelementididesign/",
-        dateAdded: "2024-04-11",
-        name: "Nouveauelementi Design",
       },
     ],
     Salerno: [

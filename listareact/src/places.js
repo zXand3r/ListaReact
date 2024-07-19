@@ -976,7 +976,7 @@ export const places = {
       {
         url: "https://www.instagram.com/ibacco_osteriainnovativa/",
         name: "Ibacco Osteria Innovativa",
-        dateAdded: "2024-07-13",
+        dateAdded: "2024-07-19",
         menu: "https://www.ibacco.it/",
       },
     ],

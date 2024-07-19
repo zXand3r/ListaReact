@@ -26,17 +26,17 @@ export function Place({ place }) {
       }
     );
 
-    const currentRef = placeRef.current; // Memorizza il valore di placeRef.current
+    const currentRef = placeRef.current;
     if (currentRef) {
       observer.observe(currentRef);
     }
 
     return () => {
-      if (currentRef) { // Utilizza la variabile locale invece di placeRef.current
+      if (currentRef) {
         observer.unobserve(currentRef);
       }
     };
-  }, [placeRef]); // Aggiungi placeRef come dipendenza per evitare il warning
+  }, [placeRef]);
 
   return (
     <li
@@ -49,7 +49,15 @@ export function Place({ place }) {
       </a>
       {place.menu ? (
         <button className="menuButton">
-          <a href={place.menu}>Menù</a>
+          {place.menuImage ? (
+            <a href={place.menuImage}>
+              Menù
+            </a>
+          ) : (
+            <a href={place.menu}>
+              Menù
+            </a>
+          )}
         </button>
       ) : (
         <button className="menuButton">

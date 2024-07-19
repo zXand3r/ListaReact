@@ -1,3 +1,4 @@
+import menuSoldOut from "./assets/Soldout_menu.jpeg";
 export const places = {
   Food: {
     Pomigliano: [
@@ -19,6 +20,8 @@ export const places = {
       {
         url: "https://instagram.com/paninoteca_soldout",
         name: "Paninoteca SoldOut",
+        menuImage: menuSoldOut,
+        menu: menuSoldOut,
       },
       {
         url: "https://instagram.com/madrabbit_pomigliano",
@@ -970,6 +973,12 @@ export const places = {
         dateAdded: "2024-06-26",
         menu: "https://linktr.ee/cipajopub",
       },
+      {
+        url: "https://www.instagram.com/ibacco_osteriainnovativa/",
+        name: "Ibacco Osteria Innovativa",
+        dateAdded: "2024-07-13",
+        menu: "https://www.ibacco.it/",
+      },
     ],
     Cava_Tirreni: [
       {
@@ -1100,6 +1109,12 @@ export const places = {
         name: "Mr. Felicita",
         dateAdded: "2024-07-03",
       },
+      {
+        url: "https://www.instagram.com/i_lovetartare/",
+        name: "I Love Tartare",
+        menu: "https://ilovetartare.xmenu.it/landing",
+        dateAdded: "2024-07-19",
+      }
     ],
   },
   Drink: {
@@ -1184,6 +1199,10 @@ export const places = {
         url: "https://www.instagram.com/vitiumloungebar/",
         name: "Vitium",
       },
+      {
+        url: "https://www.instagram.com/delirumbarpompei/",
+        name: "Delirum",
+      }
     ],
     Castellammare: [
       {

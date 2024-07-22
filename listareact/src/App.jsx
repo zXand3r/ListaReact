@@ -103,7 +103,7 @@ function App() {
   };
 
   return (
-    <div className="mainContainer">
+    <div className="mainContainer" translate="no">
       {toggleNotification &&
         (newPlacesAdded.length > 0 ? (
           <ul className="notification">

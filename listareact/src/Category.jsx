@@ -25,7 +25,7 @@ export function Category({ category, cities, searchText, searchTextPlace, select
   }
 
   return (
-    <div className="categoryContainer">
+    <div className="categoryContainer" translate="no">
       {filteredCities.map((city) => (
         <PlaceList
           key={`${category}-${city}`}

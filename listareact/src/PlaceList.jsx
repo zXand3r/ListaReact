@@ -18,7 +18,7 @@ export function PlaceList({ category, city, places, searchText, searchTextPlace 
   }
 
   return (
-    <div className="list">
+    <div className="list" translate="no">
       <h2>
         {category} - {city}
       </h2>

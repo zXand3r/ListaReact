@@ -39,7 +39,7 @@ export function Place({ place }) {
   }, [placeRef]);
 
   return (
-    <li
+    <li translate='no'
       className={`container fadeIn ${isVisible ? '' : 'fadeOut'}`}
       ref={placeRef}
     >

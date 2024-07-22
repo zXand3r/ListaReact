@@ -1284,6 +1284,11 @@ export const places = {
         dateAdded: "2024-04-11",
         name: "Nouveauelementi Design",
       },
+      {
+        url: "https://www.instagram.com/ruahdessert/",
+        name: "Ruah Dessert",
+        dateAdded: "2024-07-22",
+      }
     ],
   },
   Dolci: {
@@ -1341,5 +1346,19 @@ export const places = {
         menu: "https://pasticceriamansi.it/",
       },
     ],
+    Nola: [
+      {
+        url: "https://www.instagram.com/ruahdessert/",
+        name: "Ruah Dessert",
+        dateAdded: "2024-07-22",
+      },
+    ],
+    San_Vitaliano: [
+      {
+        url: "https://www.instagram.com/ruah_sbaam/",
+        name: "Ruah SBAAM",
+        dateAdded: "2024-07-22",
+      },
+    ]
   },
 };

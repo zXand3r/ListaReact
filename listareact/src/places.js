@@ -716,6 +716,12 @@ export const places = {
         dateAdded: "2024-05-21",
         menu: "https://booxit.it/sharelinks/mezzocolpopontecagnano",
       },
+      {
+        url: "https://www.instagram.com/thetimesgiffoni/",
+        name: "The Times Giffoni",
+        dateAdded: "2024-07-25",
+        menu: "https://www.instagram.com/stories/highlights/18007858865449070/",
+      },
     ],
     Ercolano: [
       {
@@ -1016,6 +1022,12 @@ export const places = {
         name: "La Cuopperia",
         dateAdded: "2024-07-03",
       },
+      {
+        url: "https://www.instagram.com/in.famefood/",
+        name: "In Fame Food",
+        dateAdded: "2024-07-25",
+        menu: "https://www.pubinfame.com/",
+      }
     ],
     Frattaminore: [
       {
@@ -1102,6 +1114,12 @@ export const places = {
         name: "Blow Braceria",
         dateAdded: "2024-07-03",
       },
+      {
+        url: "https://www.instagram.com/liccardiburger/",
+        name: "Liccardi Burger",
+        dateAdded: "2024-07-25",
+        menu: "https://drive.google.com/file/d/1X_olga2rkimtnPajhZhOkOGbOFlkbREC/view",
+      }
     ],
     Marano: [
       {
@@ -1237,6 +1255,12 @@ export const places = {
         dateAdded: "2024-06-126",
         menu: "https://thejunglenapoli.it/?lang=it",
       },
+      {
+        url: "https://www.instagram.com/colpadalfredo/",
+        name: "Colpa d'Alfredo",
+        dateAdded: "2024-07-25",
+        menu: "https://www.colpadalfredo.com/",
+      }
     ],
     Palma_Campania: [
       {
@@ -1290,6 +1314,14 @@ export const places = {
         dateAdded: "2024-07-22",
       }
     ],
+    Ercolano: [
+      {
+        url: "https://www.instagram.com/roofgardenercolano/",
+        name: "Roof Garden Ercolano",
+        dateAdded: "2024-07-25",
+        menu: "https://roofgardenercolano.it/",
+      }
+    ]
   },
   Dolci: {
     Pomigliano: [

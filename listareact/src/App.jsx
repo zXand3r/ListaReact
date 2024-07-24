@@ -29,6 +29,7 @@ function App() {
             city,
             count: newCityPlaces.length,
             category: category,
+            dateAdded: newCityPlaces[0].dateAdded, // Prendi la data del primo posto nuovo
           });
         }
       }
@@ -88,7 +89,13 @@ function App() {
 
   const formatDate = (date) => {
     const options = { day: "2-digit", month: "long", year: "numeric" };
-    const formattedDate = date.toLocaleDateString("en-US", options);
+    const formattedDate = new Date(date).toLocaleDateString("en-US", options);
+    return formattedDate;
+  };
+
+  const formatDateNotification = (date) => {
+    const options = { day: "2-digit", month: "long"};
+    const formattedDate = new Date(date).toLocaleDateString("it-IT", options);
     return formattedDate;
   };
 
@@ -109,7 +116,9 @@ function App() {
           <ul className="notification">
             {newPlacesAdded.map((newPlace, index) => (
               <li key={index}>
-                {newPlace.count} nuovi posti aggiunti a{" "}
+                 {newPlace.count === 1
+                  ? "1 posto aggiunto a"
+                  : `${newPlace.count} posti aggiunti a`}{"➡️"}
                 <span
                   style={{
                     color: "#3fade9",
@@ -122,6 +131,12 @@ function App() {
                   {newPlace.city}
                 </span>{" "}
                 - <strong>{newPlace.category}</strong>
+                <span
+                style={{
+                  fontSize: "12px"
+                }}>
+                  {" "} - {formatDateNotification(newPlace.dateAdded)}
+                </span>
               </li>
             ))}
           </ul>
@@ -143,7 +158,7 @@ function App() {
         className="toggleNotificationButton"
         onClick={toggleNotifications}
       >
-        {toggleNotification ? "Nascondi" : "Mostra i nuovi posti aggiunti"}
+        {toggleNotification ? "Nascondi 🤫" : "Mostra aggiunti nell'ultima settimana😉"}
       </button>
       <div className="searchBar">
         <input

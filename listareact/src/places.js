@@ -811,6 +811,11 @@ export const places = {
         dateAdded: "2024-05-16",
         menu: "https://www.instagram.com/stories/highlights/18212079355276373/",
       },
+      {
+        url: "https://www.instagram.com/viro_pizzeria_/",
+        name: "Viro Pizzeria",
+        dateAdded: "2024-07-30",
+      }
     ],
     Gragnano: [
       {
@@ -890,6 +895,12 @@ export const places = {
         dateAdded: "2024-07-10",
         menu: "https://linktr.ee/pizzeriacasacavalieri",
       },
+      {
+        url: "https://www.instagram.com/theboreale/",
+        name: "The Boreale",
+        menu: "https://menu.theboreale.com/",
+        dateAdded: "2024-07-30",
+      }
     ],
     Boscotrecase: [
       {
@@ -1082,6 +1093,12 @@ export const places = {
         url: "https://www.instagram.com/offlineristobistrot/",
         name: "Offlineristo Bistrot",
         dateAdded: "2024-07-16",
+      },
+      {
+        url: "https://www.instagram.com/affame.pub/",
+        name: "Affame Pub",
+        dateAdded: "2024-07-30",
+        menu: "https://www.justeat.it/restaurants-affame---pub-paninoteca-casoria",
       }
     ],
     Vomero: [

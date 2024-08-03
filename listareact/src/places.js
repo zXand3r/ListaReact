@@ -379,7 +379,13 @@ export const places = {
         name: "Berties Bistrot Valentino",
         dateAdded: "2024-07-16",
         menu: "https://www.bertiesbistrot.it/",
-      }
+      },
+      {
+        url: "https://www.instagram.com/al.bruco/",
+        name: "Al Bruco",
+        dateAdded: "2024-08-03",
+        menu: "https://www.instagram.com/stories/highlights/17853982680145670/",
+      },
     ],
     Napoli: [
       {
@@ -388,9 +394,10 @@ export const places = {
         name: "Bomber Food",
       },
       {
-        url: "https://instagram.com/12morsi",
-        menu: "https://linktr.ee/12morsilink",
+        url: "https://www.instagram.com/12morsi/",
         name: "12 Morsi",
+        dateAdded: "2024-04-23",
+        menu: "https://linktr.ee/12morsilink",
       },
       {
         url: "https://instagram.com/ros.lab",
@@ -1277,6 +1284,12 @@ export const places = {
         name: "Colpa d'Alfredo",
         dateAdded: "2024-07-25",
         menu: "https://www.colpadalfredo.com/",
+      },
+      {
+        url: "https://www.instagram.com/alkymya_bellini/",
+        name: "Alkymya Bellini",
+        dateAdded: "2024-08-03",
+        menu: "https://www.instagram.com/stories/highlights/17951373934353452/",
       }
     ],
     Palma_Campania: [
@@ -1408,6 +1421,14 @@ export const places = {
         name: "Ruah SBAAM",
         dateAdded: "2024-07-22",
       },
+    ],
+    Napoli: [
+      {
+        url: "https://www.instagram.com/birdy.thebakery/",
+        name: "Birdy the Bakery",
+        dateAdded: "2024-08-03",
+        menu: "https://www.birdythebakery.com/",
+      }
     ]
   },
 };

@@ -1130,6 +1130,11 @@ export const places = {
         url: "https://www.instagram.com/21_biergrube/",
         name: "21 Biergrube",
         dateAdded: "2024-07-10",
+      },
+      {
+        url: "https://www.instagram.com/drunken_sailor_birreria/",
+        name: "Drunken Sailor Birreria",
+        dateAdded: "2024-08-06",
       }
     ],
     Quarto: [

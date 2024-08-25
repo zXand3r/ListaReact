@@ -369,7 +369,7 @@ export const places = {
         menu: "https://www.instagram.com/stories/highlights/18011103227402482/",
       },
       {
-        url:"https://www.instagram.com/basta.pizzeria/",
+        url: "https://www.instagram.com/basta.pizzeria/",
         name: "Basta Pizzeria",
         dateAdded: "2024-07-10",
         menu: "https://linktr.ee/pizzeriabasta",
@@ -501,6 +501,12 @@ export const places = {
         dateAdded: "2024-06-27",
         menu: "https://www.sofisticatopub.it/",
       },
+      {
+        url: "https://www.instagram.com/_toretto_kebab_napoli/",
+        name: "Toretto Kebab",
+        dateAdded: "2024-08-25",
+        menu: "https://www.menudigitale.io/eqfcu"
+      }
     ],
     San_Vitaliano: [
       {
@@ -599,6 +605,11 @@ export const places = {
         dateAdded: "2024-07-10",
         menu: "https://www.pompeicentrale.it/",
       },
+      {
+        url: "https://www.instagram.com/mamaspub/",
+        name: "Mama's Pub",
+        dateAdded: "2024-08-25",
+      }
     ],
     Santa_Maria_la_Carità: [
       {
@@ -822,7 +833,7 @@ export const places = {
         url: "https://www.instagram.com/viro_pizzeria_/",
         name: "Viro Pizzeria",
         dateAdded: "2024-07-30",
-      }
+      },
     ],
     Gragnano: [
       {
@@ -907,7 +918,7 @@ export const places = {
         name: "The Boreale",
         menu: "https://menu.theboreale.com/",
         dateAdded: "2024-07-30",
-      }
+      },
     ],
     Boscotrecase: [
       {
@@ -926,7 +937,7 @@ export const places = {
         name: "Pizzeria Elsier",
         menu: "https://www.instagram.com/stories/highlights/17952177938180398/",
         dateAdded: "2024-07-16",
-      }
+      },
     ],
     Giugliano_Campania: [
       {
@@ -1003,6 +1014,12 @@ export const places = {
         dateAdded: "2024-07-19",
         menu: "https://www.ibacco.it/",
       },
+      {
+        url: "https://www.instagram.com/burgerpizzachef/",
+        name: "Burger Pizza Chef",
+        dateAdded: "2024-08-25",
+        menu: "https://linktr.ee/burgercheflicola",
+      }
     ],
     Cava_Tirreni: [
       {
@@ -1045,7 +1062,7 @@ export const places = {
         name: "In Fame Food",
         dateAdded: "2024-07-25",
         menu: "https://www.pubinfame.com/",
-      }
+      },
     ],
     Frattaminore: [
       {
@@ -1106,7 +1123,7 @@ export const places = {
         name: "Affame Pub",
         dateAdded: "2024-07-30",
         menu: "https://www.justeat.it/restaurants-affame---pub-paninoteca-casoria",
-      }
+      },
     ],
     Vomero: [
       {
@@ -1135,7 +1152,7 @@ export const places = {
         url: "https://www.instagram.com/drunken_sailor_birreria/",
         name: "Drunken Sailor Birreria",
         dateAdded: "2024-08-06",
-      }
+      },
     ],
     Quarto: [
       {
@@ -1148,7 +1165,7 @@ export const places = {
         name: "Liccardi Burger",
         dateAdded: "2024-07-25",
         menu: "https://drive.google.com/file/d/1X_olga2rkimtnPajhZhOkOGbOFlkbREC/view",
-      }
+      },
     ],
     Marano: [
       {
@@ -1161,7 +1178,7 @@ export const places = {
         name: "I Love Tartare",
         menu: "https://ilovetartare.xmenu.it/landing",
         dateAdded: "2024-07-19",
-      }
+      },
     ],
   },
   Drink: {
@@ -1222,6 +1239,12 @@ export const places = {
         name: "Albuco",
         dateAdded: "2024-03-25",
       },
+      {
+        url: "https://www.instagram.com/cafestreet45_tdg/",
+        name: "Café Street 45",
+        dateAdded: "2024-08-25",
+        menu: "https://linktr.ee/cafestreet45"
+      }
     ],
     Sant_Anastasia: [
       {
@@ -1249,7 +1272,7 @@ export const places = {
       {
         url: "https://www.instagram.com/delirumbarpompei/",
         name: "Delirum",
-      }
+      },
     ],
     Castellammare: [
       {
@@ -1295,6 +1318,11 @@ export const places = {
         name: "Alkymya Bellini",
         dateAdded: "2024-08-03",
         menu: "https://www.instagram.com/stories/highlights/17951373934353452/",
+      },
+      {
+        url: "https://www.instagram.com/bagnoidealnapoli/",
+        name: "Bagno ideal Napoli",
+        dateAdded: "2024-08-25",
       }
     ],
     Palma_Campania: [
@@ -1336,6 +1364,12 @@ export const places = {
         dateAdded: "2024-07-10",
         menu: "https://www.localismart.it/mixtura/",
       },
+      {
+        url: "https://www.instagram.com/radicaliliberi_cocktailbar/",
+        name: "Radicali liberi",
+        dateAdded: "2024-08-25",
+        menu: "https://www.localismart.it/radicaliliberi"
+      }
     ],
     Nola: [
       {
@@ -1347,6 +1381,12 @@ export const places = {
         url: "https://www.instagram.com/ruahdessert/",
         name: "Ruah Dessert",
         dateAdded: "2024-07-22",
+      },
+      {
+        url: "https://www.instagram.com/blackbox_loungemeta/",
+        name: "Black Box Lounge Meta",
+        dateAdded: "2024-08-25",
+        menu: "https://blackboxloungemeta.it/",
       }
     ],
     Ercolano: [
@@ -1355,8 +1395,8 @@ export const places = {
         name: "Roof Garden Ercolano",
         dateAdded: "2024-07-25",
         menu: "https://roofgardenercolano.it/",
-      }
-    ]
+      },
+    ],
   },
   Dolci: {
     Pomigliano: [
@@ -1433,7 +1473,7 @@ export const places = {
         name: "Birdy the Bakery",
         dateAdded: "2024-08-03",
         menu: "https://www.birdythebakery.com/",
-      }
-    ]
+      },
+    ],
   },
 };

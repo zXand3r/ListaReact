@@ -111,6 +111,11 @@ function App() {
 
   return (
     <div className="mainContainer" translate="no">
+       <div className="corner-image top-left"></div>
+      <div className="corner-image top-right"></div>
+      <div className="corner-image bottom-left"></div>
+      <div className="corner-image right"></div>
+      <div className="corner-image bottom-right2"></div>
       {toggleNotification &&
         (newPlacesAdded.length > 0 ? (
           <ul className="notification">

@@ -80,6 +80,62 @@
   color: whitesmoke;
 }
 
+.corner-image {
+  position: fixed;
+  width: 100px; /* Dimensione dell'immagine */
+  height: 100px;
+  z-index: 1000; /* Metti un alto z-index per sovrapporre tutto il contenuto */
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: spin 5s linear infinite; /* Animazione di esempio */
+}
+
+/* Posizioni specifiche degli angoli */
+.top-left {
+  margin: 10em;
+  top: 0.5em;
+  left: -2em;
+  background-image: url('./assets/burger-fast-fastfood-svgrepo-com.svg'); /* Sostituisci con il percorso dell'immagine */
+}
+
+.top-right {
+  margin: 10em;
+  top: -6em;
+  right: -1.5em;
+  background-image: url('./assets/food-colored-beer.svg');
+}
+
+.bottom-left {
+  margin: 15em;
+  bottom: 0;
+  left: 0;
+  background-image: url('./assets/hamburger-svgrepo-com.svg');
+}
+
+.right {
+  margin: 15em;
+  bottom: 8em;
+  right: -2em;
+  background-image: url('./assets/hot-dog-svgrepo-com.svg');
+}
+
+.bottom-right2 {
+  margin: 5em;
+  bottom: 0;
+  right: 0;
+  background-image: url('./assets/food-colored-pizza.svg');
+}
+
+/* Esempio di animazione (rotazione) */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media (max-width: 1150px){
   .containerLista{
     width: 95%;
@@ -87,9 +143,32 @@
   .notification{
     left: 35%;
   }
+  .corner-image {
+    width: 80px; /* Riduci la dimensione per schermi più piccoli */
+    height: 80px;
+  }
+}
+
+@media (max-width: 900px){
+  .corner-image {
+    width: 68px; /* Riduci ulteriormente per schermi più piccoli */
+    height: 68px;
+  }
+  .bottom-left{
+    margin: 11em;
+    left: -5em;
+    bottom: 3em;
+  }
+  .right{
+    right: -8em;
+  }
 }
 
 @media (max-width: 700px){
+  .corner-image {
+    width: 60px; /* Riduci ulteriormente per schermi più piccoli */
+    height: 60px;
+  }
   .searchBar{
     display: flex;
     justify-content: center;
@@ -109,6 +188,43 @@
     top: 0;
     left: 82.5%;
   }
+  .top-left{
+    left: -5em;
+  }
+  .bottom-left{
+    margin: 5em;
+    bottom: 8em;
+    left: -2em;
+  }
+  .top-right{
+    right: -5em;
+  }
+}
+
+@media (max-width: 600px){
+  .right{
+    right: -13.2em;
+  }
+}
+
+@media (max-width:480px){
+  .corner-image{
+    width: 50px; /* Riduci ancora per schermi molto piccoli */
+    height: 50px;
+  }
+  .bottom-right2{
+    margin: 2em;
+    right: 3em;
+  }
+  .top-left{
+    left: -7em;
+  }
+  .bottom-left{
+    margin: 4em;
+  }
+  .top-right{
+    right: -7em;
+  }
 }
 
 @media (max-width: 420px){
@@ -127,6 +243,36 @@
   }
   .lastUpdated{
     width: 60%;
+  }
+  .corner-image {
+    width: 40px; /* Riduci ancora per schermi molto piccoli */
+    height: 40px;
+  }
+  .top-left{
+    margin: 0;
+    top: 15em;
+    right: 0;
+    left: 2.5em;
+  }
+  .top-right{
+    margin: 0;
+    top: 10em;
+    right: 1.5em;
+  }
+  .bottom-left{
+    margin: 0;
+    left: 2em;
+    bottom: 17em;
+  }
+  .right{
+    margin: 0;
+    bottom: 25em;
+    right: 1.5em;
+  }
+  .bottom-right2{
+    margin: 0;
+    bottom: 10em;
+    right: 2em;
   }
 }
 

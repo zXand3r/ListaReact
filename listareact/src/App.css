@@ -82,20 +82,19 @@
 
 .corner-image {
   position: fixed;
-  width: 100px; /* Dimensione dell'immagine */
+  width: 100px;
   height: 100px;
-  z-index: 1000; /* Metti un alto z-index per sovrapporre tutto il contenuto */
+  z-index: 1000; 
   background-size: contain;
   background-repeat: no-repeat;
-  animation: spin 5s linear infinite; /* Animazione di esempio */
+  animation: spin 5s linear infinite;
 }
 
-/* Posizioni specifiche degli angoli */
 .top-left {
   margin: 10em;
   top: 0.5em;
   left: -2em;
-  background-image: url('./assets/burger-fast-fastfood-svgrepo-com.svg'); /* Sostituisci con il percorso dell'immagine */
+  background-image: url('./assets/cocktail-svgrepo-com.svg');
 }
 
 .top-right {
@@ -126,7 +125,6 @@
   background-image: url('./assets/food-colored-pizza.svg');
 }
 
-/* Esempio di animazione (rotazione) */
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -144,14 +142,14 @@
     left: 35%;
   }
   .corner-image {
-    width: 80px; /* Riduci la dimensione per schermi più piccoli */
+    width: 80px; 
     height: 80px;
   }
 }
 
 @media (max-width: 900px){
   .corner-image {
-    width: 68px; /* Riduci ulteriormente per schermi più piccoli */
+    width: 68px;
     height: 68px;
   }
   .bottom-left{
@@ -166,7 +164,7 @@
 
 @media (max-width: 700px){
   .corner-image {
-    width: 60px; /* Riduci ulteriormente per schermi più piccoli */
+    width: 60px;
     height: 60px;
   }
   .searchBar{
@@ -209,7 +207,7 @@
 
 @media (max-width:480px){
   .corner-image{
-    width: 50px; /* Riduci ancora per schermi molto piccoli */
+    width: 50px; 
     height: 50px;
   }
   .bottom-right2{
@@ -245,7 +243,7 @@
     width: 60%;
   }
   .corner-image {
-    width: 40px; /* Riduci ancora per schermi molto piccoli */
+    width: 40px; 
     height: 40px;
   }
   .top-left{

@@ -80,15 +80,6 @@
   color: whitesmoke;
 }
 
-.corner-image {
-  position: fixed;
-  width: 100px;
-  height: 100px;
-  z-index: 1000; 
-  background-size: contain;
-  background-repeat: no-repeat;
-  animation: spin 5s linear infinite;
-}
 
 .top-left {
   margin: 10em;
@@ -125,14 +116,29 @@
   background-image: url('./assets/food-colored-pizza.svg');
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
+.corner-image {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  z-index: 1000; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: combined 5s linear infinite;
+}
+
+@keyframes combined {
+  0% {
+    transform: rotate(0deg) scale(1);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: rotate(180deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
   }
 }
+
+
 
 @media (max-width: 1150px){
   .containerLista{

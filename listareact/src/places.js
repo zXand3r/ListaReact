@@ -26,7 +26,7 @@ export const places = {
       {
         url: "https://instagram.com/madrabbit_pomigliano",
         menu: "https://menumadrabbit.it/",
-        name: "MadRabbit",
+        name: "Mad Rabbit",
       },
       {
         url: "https://instagram.com/bovin_dore",
@@ -113,7 +113,7 @@ export const places = {
       },
       {
         url: "https://www.instagram.com/pasquale9gradi_/",
-        menu: "https://www.novegradi.com/menu-1",
+        menu: "https://menunovegradi.it/",
         name: "9 Gradi",
       },
       {

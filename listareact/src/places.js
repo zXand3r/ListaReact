@@ -73,7 +73,7 @@ export const places = {
       {
         url: "https://www.instagram.com/thesign_pomigliano",
         name: "The Sign",
-        menu: "https://thesign.pub/menu-pomigliano/",
+        menu: "https://thesign.pub/pomigliano/",
         dateAdded: "2024-03-30",
       },
       {
@@ -135,12 +135,12 @@ export const places = {
     Torre_Annunziata: [
       {
         url: "https://instagram.com/ilcrancio",
-        menu: "https://cranciodigika.superbexperience.com/reserve/experience",
+        menu: "https://www.mondogika.it/",
         name: "Il Crancio",
       },
       {
         url: "https://www.instagram.com/gikatorreannunziata",
-        menu: "https://superb2018--oldsuperb.s3.amazonaws.com/menu%CC%80%20Gika%20Torre_web-eaf6af18-c5c0-5010-82fc-1d50bdbe24e5.pdf",
+        menu: "https://www.mondogika.it/",
         name: "Gika Torre Annunziata",
       },
       {
@@ -230,6 +230,17 @@ export const places = {
         menu: "https://www.ladolcevitasantanastasia.com/",
         dateAdded: "2024-05-30",
       },
+      {
+        url: "https://www.instagram.com/pizzeriagrams/",
+        name: "Pizzeria Gram",
+        dateAdded: "2024-09-27",
+      },
+      {
+        url: "https://www.instagram.com/monkeylabfood/",
+        name: "Monkey Lab",
+        dateAdded: "2024-09-27",
+        menu: "https://www.instagram.com/stories/highlights/18285431554227582/"
+      }
     ],
     Castellammare: [
       {
@@ -304,6 +315,12 @@ export const places = {
         url: "https://www.instagram.com/clementspubscafati/",
         name: "Clement's Pub",
       },
+      {
+        url: "https://www.instagram.com/assaje__saporitradizionali/",
+        menu: "https://www.instagram.com/stories/highlights/18057573220492273/",
+        name: "Assaje Sapori tradizionali",
+        dateAdded: "2024-09-27",
+      }
     ],
     Nola: [
       {
@@ -757,6 +774,12 @@ export const places = {
         dateAdded: "2024-05-16",
         menu: "https://linktr.ee/ledanzatrici",
       },
+      {
+        url: "https://www.instagram.com/lumospub/",
+        name: "Lumo's Pub",
+        dateAdded: "2024-09-27",
+        menu: "https://linktr.ee/lumospub",
+      }
     ],
     Madonna_Arco: [
       {
@@ -1019,6 +1042,12 @@ export const places = {
         name: "Burger Pizza Chef",
         dateAdded: "2024-08-25",
         menu: "https://linktr.ee/burgercheflicola",
+      },
+      {
+        url: "https://www.instagram.com/anthares_pizzaefritti/",
+        name: "Antheares Pizza e Fritti",
+        dateAdded: "2024-09-27",
+        menu: "https://drive.google.com/file/d/1aL4VVZ-40pAJpbwu3ShihzswGZOVVb2a/view",
       }
     ],
     Cava_Tirreni: [
@@ -1244,6 +1273,11 @@ export const places = {
         name: "Café Street 45",
         dateAdded: "2024-08-25",
         menu: "https://linktr.ee/cafestreet45"
+      },
+      {
+        url: "https://www.instagram.com/oivida_club/",
+        name: "Oivida Club",
+        dateAdded: "2024-09-27",
       }
     ],
     Sant_Anastasia: [

@@ -87,6 +87,12 @@ export const places = {
         name: "Amore e tradizione",
         dateAdded: "2024-05-16",
       },
+      {
+        url: "https://www.instagram.com/panuozzotomegenny/",
+        name: "Panuozzo Tomgenny",
+        dateAdded: "2024-10-21",
+        menu: "https://online.fliphtml5.com/mxqml/kbvx/#p=1"
+      }
     ],
     Somma_Vesuviana: [
       {
@@ -152,6 +158,12 @@ export const places = {
         url: "https://instagram.com/torrebirraia",
         name: "Torre Birraia",
       },
+      {
+        url: "https://www.instagram.com/osolemio_official_ta/",
+        name: "O sole mio",
+        menu: "https://pwa.pienissimo.com/home?hashform=GOtj595KBt3w7FOYCOUdjsaHIgQvlvwK",
+        dateAdded: "2024-10-21",
+      }
     ],
     Torre_Del_Greco: [
       {
@@ -1306,6 +1318,7 @@ export const places = {
       {
         url: "https://www.instagram.com/delirumbarpompei/",
         name: "Delirum",
+        menu: "https://www.oliufficio.com/delirum.html"
       },
     ],
     Castellammare: [
@@ -1327,6 +1340,12 @@ export const places = {
         name: "Operhaclub",
         dateAdded: "2024-04-16",
       },
+      {
+        url: "https://www.instagram.com/lap__laltroposto/",
+        name: "L'altro posto",
+        dateAdded: "2024-10-21",
+        menu: "https://drive.google.com/file/d/1rB5QYVZQGFTb-ynArJIgbrgGTVaWsnXI/view",
+      }
     ],
     Napoli: [
       {
@@ -1430,6 +1449,12 @@ export const places = {
         dateAdded: "2024-07-25",
         menu: "https://roofgardenercolano.it/",
       },
+      {
+        url: "https://www.instagram.com/hops_birraottozerozero56/",
+        name: "Hops Birra Ottozerozero56",
+        dateAdded: "2024-10-21",
+        menu: "https://linktr.ee/birraottozerozero56"
+      }
     ],
   },
   Dolci: {

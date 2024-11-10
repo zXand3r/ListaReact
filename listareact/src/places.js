@@ -215,6 +215,11 @@ export const places = {
         menu: "https://www.instagram.com/stories/highlights/18011381041707868/",
         dateAdded: "2024-06-26",
       },
+      {
+        url: "https://www.instagram.com/lapizzeriamennella/",
+        name: "La Pizzeria Mennella",
+        dateAdded: "2024-11-10"
+      }
     ],
     Sant_Anastasia: [
       {
@@ -638,6 +643,12 @@ export const places = {
         url: "https://www.instagram.com/mamaspub/",
         name: "Mama's Pub",
         dateAdded: "2024-08-25",
+      },
+      {
+        url: "https://www.instagram.com/wolfirishpubpompei/",
+        name: "Wolfirish Pub",
+        dateAdded: "2024-11-10",
+        menu: "https://wolfirishpub.it/panini-classici/",
       }
     ],
     Santa_Maria_la_Carità: [
@@ -954,6 +965,12 @@ export const places = {
         menu: "https://menu.theboreale.com/",
         dateAdded: "2024-07-30",
       },
+      {
+        url: "https://www.instagram.com/tavernalamatta/",
+        name: "Taverna la matta",
+        menu: "https://linktr.ee/tavernalamatta",
+        dateAdded: "2024-11-10",
+      }
     ],
     Boscotrecase: [
       {
@@ -1298,6 +1315,18 @@ export const places = {
         menu: "https://hoplab.eu/",
         name: "Hop Lab",
       },
+      {
+        url: "https://www.instagram.com/kadaveofficial/",
+        name: "Kadave",
+        dateAdded: "2024-11-10",
+        menu: "http://www.kadave.it/menu/"
+      },
+      {
+        url: "https://www.instagram.com/sweetbar_santanastasia/",
+        name: "Sweet Bar",
+        dateAdded: "2024-11-10",
+        menu: "https://www.sweetbar.it",
+      }
     ],
     Scafati: [
       {

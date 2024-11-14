@@ -92,6 +92,11 @@ export const places = {
         name: "Panuozzo Tomgenny",
         dateAdded: "2024-10-21",
         menu: "https://online.fliphtml5.com/mxqml/kbvx/#p=1"
+      },
+      {
+        url: "https://www.instagram.com/ledueleonesse_pub/",
+        name: "Le due leonesse Pub",
+        dateAdded: "2024-11-14",
       }
     ],
     Somma_Vesuviana: [
@@ -1485,6 +1490,14 @@ export const places = {
         menu: "https://linktr.ee/birraottozerozero56"
       }
     ],
+    Angri: [
+      {
+        url: "https://www.instagram.com/stir_secretbar/",
+        name: "Stir Secret Bar",
+        dateAdded: "2024-11-14",
+        menu: "https://www.stirexperience.it/menu/",
+      },
+    ]
   },
   Dolci: {
     Pomigliano: [

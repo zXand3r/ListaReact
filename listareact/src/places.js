@@ -97,7 +97,13 @@ export const places = {
         url: "https://www.instagram.com/ledueleonesse_pub/",
         name: "Le due leonesse Pub",
         dateAdded: "2024-11-14",
-      }
+      },
+      {
+        url: "https://www.instagram.com/pizzaingrammi/",
+        name: "Pizza Ingrammi",
+        dateAdded: "2025-01-03",
+        menu: "https://pizzaingrammi.it/",
+      },
     ],
     Somma_Vesuviana: [
       {
@@ -142,6 +148,11 @@ export const places = {
         name: "Oven King",
         dateAdded: "2024-06-17",
       },
+      {
+        url: "https://www.instagram.com/theburtonjuice/",
+        name: "The Burton Juice",
+        dateAdded: "2025-01-03",
+      }
     ],
     Torre_Annunziata: [
       {
@@ -294,6 +305,12 @@ export const places = {
         dateAdded: "2024-06-05",
         menu: "https://www.qodeup.com/index.php/home/index/cupptiestreetfooderestaurant/it/2326",
       },
+      {
+        url: "https://www.instagram.com/nigrobraceriaevineria/",
+        menu: "https://nigrobraceriaevineria.it/",
+        name: "Nigro Braceria",
+        dateAdded: "2025-01-03",
+      }
     ],
     San_Marzano: [
       {
@@ -545,6 +562,17 @@ export const places = {
         name: "Toretto Kebab",
         dateAdded: "2024-08-25",
         menu: "https://www.menudigitale.io/eqfcu"
+      },
+      {
+        url: "https://www.instagram.com/ddem.steakhouse/",
+        name: "D.D.E.M. Steakhouse",
+        dateAdded: "2025-01-03",
+        menu: "https://www.instagram.com/stories/highlights/17967925222742225/",
+      },
+      {
+        url: "https://www.instagram.com/pizzaprestige/",
+        name: "Pizza Prestige",
+        dateAdded: "2025-01-03",
       }
     ],
     San_Vitaliano: [
@@ -590,6 +618,12 @@ export const places = {
         menu: "https://www.maggielacapricciosa.it/",
         dateAdded: "2024-05-30",
       },
+      {
+        url: "https://www.instagram.com/ristoranteventipuntozero/",
+        name: "Ristorante Venti punto Zero",
+        menu: "https://www.ventipuntozero.it/men%C3%B9",
+        dateAdded: "2025-01-03",
+      }
     ],
     Pompei: [
       {
@@ -1082,6 +1116,12 @@ export const places = {
         name: "Antheares Pizza e Fritti",
         dateAdded: "2024-09-27",
         menu: "https://drive.google.com/file/d/1aL4VVZ-40pAJpbwu3ShihzswGZOVVb2a/view",
+      },
+      {
+        url: "https://www.instagram.com/kaiserpalazzoesperienza/",
+        name: "Kaiser Palazzo Esperienza",
+        dateAdded: "2025-01-03",
+        menu: "https://drive.google.com/file/d/1g2BAPZFc0dG2MNS2-gC97UOp2xiHZ5Wi/view",
       }
     ],
     Cava_Tirreni: [
@@ -1229,6 +1269,18 @@ export const places = {
         dateAdded: "2024-07-25",
         menu: "https://drive.google.com/file/d/1X_olga2rkimtnPajhZhOkOGbOFlkbREC/view",
       },
+      {
+        url: "https://www.instagram.com/pizzaingrammi/",
+        name: "Pizza Ingrammi",
+        dateAdded: "2025-01-03",
+        menu: "https://pizzaingrammi.it/",
+      },
+      {
+        url: "https://www.instagram.com/pizzeria_antonio_e_manu/",
+        name: "Pizzeria Antonio e Manu",
+        dateAdded: "2025-01-03",
+        menu: "https://linktr.ee/antonio_e_manu"
+      }
     ],
     Marano: [
       {
@@ -1285,6 +1337,11 @@ export const places = {
         name: "Tombino Urbansaloon",
         dateAdded: "2024-06-17",
       },
+      {
+        url: "https://www.instagram.com/ildadoloungebar/",
+        name: "Il dado Lounge Bar",
+        dateAdded: "2025-01-03",
+      }
     ],
     Torre_Del_Greco: [
       {
@@ -1354,6 +1411,12 @@ export const places = {
         name: "Delirum",
         menu: "https://www.oliufficio.com/delirum.html"
       },
+      {
+        url: "https://www.instagram.com/_sozen__/",
+        name: "Sozen",
+        dateAdded: "2025-01-03",
+        menu: "https://www.thefork.it/ristorante/so-zen-r422569/menu"
+      }
     ],
     Castellammare: [
       {

@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/ListaReact/static/css/main.6d1c0038.css",
-    "main.js": "/ListaReact/static/js/main.628268c9.js",
+    "main.css": "/ListaReact/static/css/main.34cbca71.css",
+    "main.js": "/ListaReact/static/js/main.bafa501b.js",
     "static/js/453.79a67ab0.chunk.js": "/ListaReact/static/js/453.79a67ab0.chunk.js",
     "static/media/Soldout_menu.jpeg": "/ListaReact/static/media/Soldout_menu.29e9b99ca509585aa8db.jpeg",
-    "static/media/hamburger-svgrepo-com.svg": "/ListaReact/static/media/hamburger-svgrepo-com.7044fd7b27b3f5b1e042.svg",
-    "static/media/hot-dog-svgrepo-com.svg": "/ListaReact/static/media/hot-dog-svgrepo-com.622a3f704b7f8cc71003.svg",
     "static/media/whatsapp.svg": "/ListaReact/static/media/whatsapp.defb3f16e37a8ddd7ea9f7ae4a40fa54.svg",
-    "static/media/food-colored-beer.svg": "/ListaReact/static/media/food-colored-beer.e05e94ab341d1703f574.svg",
-    "static/media/food-colored-pizza.svg": "/ListaReact/static/media/food-colored-pizza.c24cbff4b70b0540c633.svg",
-    "static/media/cocktail-svgrepo-com.svg": "/ListaReact/static/media/cocktail-svgrepo-com.3d5cc9633dd2afbd05f5.svg",
     "index.html": "/ListaReact/index.html",
-    "main.6d1c0038.css.map": "/ListaReact/static/css/main.6d1c0038.css.map",
-    "main.628268c9.js.map": "/ListaReact/static/js/main.628268c9.js.map",
+    "main.34cbca71.css.map": "/ListaReact/static/css/main.34cbca71.css.map",
+    "main.bafa501b.js.map": "/ListaReact/static/js/main.bafa501b.js.map",
     "453.79a67ab0.chunk.js.map": "/ListaReact/static/js/453.79a67ab0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d1c0038.css",
-    "static/js/main.628268c9.js"
+    "static/css/main.34cbca71.css",
+    "static/js/main.bafa501b.js"
   ]
 }

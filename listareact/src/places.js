@@ -819,6 +819,12 @@ export const places = {
         dateAdded: "2024-07-25",
         menu: "https://www.instagram.com/stories/highlights/18007858865449070/",
       },
+      {
+        url: "https://www.instagram.com/labirroteca_pubsalerno/",
+        name: "Labirroteca Pub",
+        dateAdded: "2025-01-30",
+        menu: "https://labirroteca.netlify.app/",
+      }
     ],
     Ercolano: [
       {
@@ -915,9 +921,9 @@ export const places = {
         menu: "https://www.instagram.com/stories/highlights/18212079355276373/",
       },
       {
-        url: "https://www.instagram.com/viro_pizzeria_/",
+        url: "https://www.instagram.com/viro_pizzeria_panini_cucina/",
         name: "Viro Pizzeria",
-        dateAdded: "2024-07-30",
+        dateAdded: "2025-01-30",
       },
     ],
     Gragnano: [
@@ -1560,8 +1566,15 @@ export const places = {
         dateAdded: "2024-11-14",
         menu: "https://www.stirexperience.it/menu/",
       },
-    ]
-  },
+    ],
+    Torre_Annunziata: [
+      {
+        url: "https://www.instagram.com/magmaretapasbar/",
+        name: "Magnare tapapas bar",
+        dateAdded: "2025-01-30",
+        menu: "https://linktr.ee/magmaretapasbar"
+      }
+    ]   },
   Dolci: {
     Pomigliano: [
       {

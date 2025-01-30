@@ -118,7 +118,7 @@ function App() {
               <li key={index}>
                  {newPlace.count === 1
                   ? "1 posto aggiunto a"
-                  : `${newPlace.count} posti aggiunti a`}{"➡️"}
+                  : `${newPlace.count} posti aggiunti a`}{" "}
                 <span
                   style={{
                     color: "#3fade9",

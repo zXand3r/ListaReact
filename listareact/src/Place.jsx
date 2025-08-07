@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import './Place.css';
+import React, { useEffect, useRef, useState } from "react";
+import "./Place.css";
 
 export function isNewPlace(dateAdded) {
   if (!dateAdded) return false;
@@ -21,7 +21,7 @@ export function Place({ place }) {
       },
       {
         root: null,
-        rootMargin: '0px',
+        rootMargin: "0px",
         threshold: 0.9,
       }
     );
@@ -39,29 +39,32 @@ export function Place({ place }) {
   }, [placeRef]);
 
   return (
-    <li translate='no'
-      className={`container fadeIn ${isVisible ? '' : 'fadeOut'}`}
+    <li
+      translate="no"
+      className={`container fadeIn ${isVisible ? "" : "fadeOut"}`}
       ref={placeRef}
     >
-      <a href={place.url} className="name">
+      <a
+        href={place.url}
+        className="name"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <h3 className="name">{place.name}</h3>
         {isNew && <span className="newLabel">New</span>}
       </a>
       {place.menu ? (
-        <button className="menuButton">
-          {place.menuImage ? (
-            <a href={place.menuImage}>
-              Menù
-            </a>
-          ) : (
-            <a href={place.menu}>
-              Menù
-            </a>
-          )}
-        </button>
+        <a
+          href={place.menuImage ? place.menuImage : place.menu}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="menuButton"
+        >
+          Menù
+        </a>
       ) : (
-        <button className="menuButton">
-          <p>Not Available</p>
+        <button className="menuButton" disabled>
+          Not Available
         </button>
       )}
     </li>

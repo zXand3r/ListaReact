@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.mainContainer{
+.mainContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,13 +14,13 @@
   padding: 40px;
 }
 
-.mainContainer h1{
+.mainContainer h1 {
   margin-bottom: 40px;
   width: 100%;
   text-align: center;
 }
 
-.containerLista{
+.containerLista {
   border: 2px solid rgb(236, 232, 151);
   width: 50%;
   text-align: center;
@@ -32,7 +32,7 @@
   justify-content: center;
 }
 
-.titoloLista{
+.titoloLista {
   margin: 2rem;
   color: whitesmoke;
 }
@@ -58,7 +58,7 @@
   border-color: #007bff; /* Colore del bordo quando in focus */
 }
 
-.clearButton{
+.clearButton {
   background-color: transparent;
   position: absolute;
   margin-left: 90%;
@@ -66,8 +66,8 @@
   height: 100%;
 }
 
-.notification{
-  position:sticky;
+.notification {
+  position: sticky;
   display: flex;
   flex-flow: column nowrap;
   color: whitesmoke;
@@ -76,7 +76,7 @@
   left: 40%;
 }
 
-.notificationNone{
+.notificationNone {
   color: whitesmoke;
 }
 
@@ -92,60 +92,56 @@
   }
 }
 
-
-
-@media (max-width: 1150px){
-  .containerLista{
+@media (max-width: 1150px) {
+  .containerLista {
     width: 95%;
   }
-  .notification{
+  .notification {
     left: 35%;
   }
 }
 
-
-@media (max-width: 700px){
-  .searchBar{
+@media (max-width: 700px) {
+  .searchBar {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .searchBar, .searchBar input[type="text"]  {
+  .searchBar,
+  .searchBar input[type="text"] {
     width: 90%;
   }
-  .clearButton{
+  .clearButton {
     margin-left: 80%;
   }
-  .notification{
+  .notification {
     left: 0;
     font-size: 16px;
   }
-  .clearButton2{
+  .clearButton2 {
     top: 0;
     left: 82.5%;
   }
 }
 
-
-@media (max-width: 420px){
-  .clearButton{
+@media (max-width: 420px) {
+  .clearButton {
     margin-left: 75%;
     width: 15%;
     height: 100%;
   }
-  .notification{
+  .notification {
     font-size: 14px;
     width: 80%;
     left: 0;
   }
-  .clearButton2{
+  .clearButton2 {
     left: 82%;
   }
-  .lastUpdated{
+  .lastUpdated {
     width: 60%;
   }
 }
-
 
 /* Nascondi la scrollbar verticale e orizzontale */
 ::-webkit-scrollbar {
@@ -185,19 +181,19 @@
   margin-bottom: 10px;
 }
 
-.clearButton2{
+.clearButton2 {
   background-color: transparent;
   position: absolute;
   width: 10%;
   height: 100%;
   right: 4%;
 }
-.featureBtnContainer{
+.featureBtnContainer {
   display: flex;
   width: 90%;
   height: 100%;
 }
-.featureButton{
+.featureButton {
   background-color: red;
   border: 0;
   border-radius: 5px;
@@ -271,11 +267,37 @@
 }
 
 .dropdown {
-  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
 }
 
 .dropdown select {
-  padding: 10px;
-  font-size: 16px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 220px;
+  color: #333;
 }
 
+.dropdown select:focus {
+  border-color: #3fade9;
+  box-shadow: 0 0 0 3px rgba(63, 173, 233, 0.3);
+  outline: none;
+}
+
+.dropdown select:hover {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+  .dropdown select {
+    min-width:unset;
+    font-size: 0.95rem;
+  }
+}

@@ -13,7 +13,6 @@ function App() {
   const [newPlacesAdded, setNewPlacesAdded] = useState([]);
   const [toggleNotification, setToggleNotification] = useState(false);
   const [showScrollButton, setShowScrollButton] = useState(false);
-  const [lastUpdated, setLastUpdated] = useState(new Date());
   const [selectedCategory, setSelectedCategory] = useState("");
 
   useEffect(() => {
@@ -35,7 +34,6 @@ function App() {
       }
     }
     setNewPlacesAdded(newPlaces);
-    setLastUpdated(new Date()); // Aggiorna la data dell'ultimo aggiornamento
   }, []);
 
   useEffect(() => {
@@ -94,7 +92,7 @@ function App() {
   };
 
   const formatDateNotification = (date) => {
-    const options = { day: "2-digit", month: "long"};
+    const options = { day: "2-digit", month: "long" };
     const formattedDate = new Date(date).toLocaleDateString("it-IT", options);
     return formattedDate;
   };
@@ -111,12 +109,20 @@ function App() {
 
   return (
     <div className="mainContainer" translate="no">
+      <button
+        className="toggleNotificationButton"
+        onClick={toggleNotifications}
+      >
+        {toggleNotification
+          ? "Nascondi 🤫"
+          : "Mostra aggiunti nell'ultima settimana😉"}
+      </button>
       {toggleNotification &&
         (newPlacesAdded.length > 0 ? (
           <ul className="notification">
             {newPlacesAdded.map((newPlace, index) => (
               <li key={index}>
-                 {newPlace.count === 1
+                {newPlace.count === 1
                   ? "1 posto aggiunto a"
                   : `${newPlace.count} posti aggiunti a`}{" "}
                 <span
@@ -132,10 +138,12 @@ function App() {
                 </span>{" "}
                 - <strong>{newPlace.category}</strong>
                 <span
-                style={{
-                  fontSize: "12px"
-                }}>
-                  {" "} - {formatDateNotification(newPlace.dateAdded)}
+                  style={{
+                    fontSize: "12px",
+                  }}
+                >
+                  {" "}
+                  - {formatDateNotification(newPlace.dateAdded)}
                 </span>
               </li>
             ))}
@@ -154,12 +162,7 @@ function App() {
             😄
           </h3>
         ))}
-        <button
-        className="toggleNotificationButton"
-        onClick={toggleNotifications}
-      >
-        {toggleNotification ? "Nascondi 🤫" : "Mostra aggiunti nell'ultima settimana😉"}
-      </button>
+
       <div className="searchBar">
         <input
           className="input"
@@ -197,9 +200,6 @@ function App() {
             </option>
           ))}
         </select>
-      </div>
-      <div className="lastUpdated">
-        Ultimo aggiornamento: {formatDate(lastUpdated)}
       </div>
       <div className="containerLista">
         <h1 className="titoloLista">Lista dei Posti</h1>

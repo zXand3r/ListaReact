@@ -9,7 +9,7 @@ export const places = {
       },
       {
         url: "https://instagram.com/sciueilpaninovesuviano",
-        menu: "https://sciue.qromo.it/?v=3&token=GtYJoQuXMPzRyWZ2LetvLTwqGT7VvCWLuUbIbjmMtw4Ajm2Yi4.yKLAafLIKGdF6yPba.Wq8eWoJrAGw8fk9vQ--&tmp=qr",
+        menu: "https://linktr.ee/Sciue",
         name: "Sciuè Panino Vesuviano",
       },
       {
@@ -20,8 +20,7 @@ export const places = {
       {
         url: "https://instagram.com/paninoteca_soldout",
         name: "Paninoteca SoldOut",
-        menuImage: menuSoldOut,
-        menu: menuSoldOut,
+        menu: "https://linktr.ee/quellidisoldout",
       },
       {
         url: "https://instagram.com/madrabbit_pomigliano",
@@ -40,7 +39,7 @@ export const places = {
       },
       {
         url: "https://instagram.com/butter_burger_",
-        menu: "https://deliveroo.it/it/menu/Napoli/pomigliano/butter-burger?day=today&geohash=sr60wrby8u0v&time=ASAP",
+        menu: "https://app.alfonsino.delivery/pomigliano-d-arco/order/menu/butter-burger",
         name: "Butter Burger",
       },
       {
@@ -104,6 +103,11 @@ export const places = {
         dateAdded: "2025-01-03",
         menu: "https://pizzaingrammi.it/",
       },
+      {
+        url: "https://www.instagram.com/fronnadestapizzeria/",
+        name:"Fronna d'Està",
+        dateAdded: "2025-08-07"
+      }
     ],
     Somma_Vesuviana: [
       {
@@ -442,6 +446,12 @@ export const places = {
         dateAdded: "2024-08-03",
         menu: "https://www.instagram.com/stories/highlights/17853982680145670/",
       },
+      {
+        url: "https://www.instagram.com/sfardy_/",
+        name:"Sfardy",
+        menu: "https://linktr.ee/sfardy",
+        dateAdded:"2025-08-07",
+      }
     ],
     Napoli: [
       {
@@ -1375,6 +1385,12 @@ export const places = {
         url: "https://www.instagram.com/oivida_club/",
         name: "Oivida Club",
         dateAdded: "2024-09-27",
+      },
+      {
+        url: "https://www.instagram.com/crossroad_sunrise/",
+        name: "Crossroad Sunrise",
+        dateAdded:"2025-08-07",
+        menu: "https://drive.google.com/file/d/1rM5gTrS-uimiqWff6hLOR7EjoMi3s9PR/view?usp=sharing",
       }
     ],
     Sant_Anastasia: [

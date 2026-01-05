@@ -5,7 +5,7 @@
    width: 100%;
    height: 100%;
    flex-direction: column;
-   gap: 0.5rem;
+   padding: 0.5rem;
    position: relative;
    opacity: 0; /* Impostiamo l'opacità a 0 inizialmente */
    transform: translateX(-20px); /* Spostiamo l'elemento verso sinistra in modo che appaia da sinistra */
@@ -37,7 +37,7 @@
    color: red;
    text-decoration: none; /* Rimuovi il sottolineato */
    width: 100%;
-   padding: 8px;
+   /* padding: 8px; */
 }
 
 .container a:hover{
@@ -68,6 +68,14 @@
    background-color: rgb(12, 72, 226);; /* Cambia il colore di sfondo al passaggio del mouse */
    transform: scale(1.1);
    transition: transform 0.2s ease-in-out;
+}
+
+.closed{
+   font-size: 10px;
+   opacity: 0.3;
+   font-style: italic;
+   font-weight: bold;
+   color: black;
 }
 
 @media (max-width: 600px){

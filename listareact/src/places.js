@@ -6,6 +6,7 @@ export const places = {
         url: "https://instagram.com/rosti_pomigliano",
         menu: "https://rostipomigliano.it/",
         name: "Rosti Pomigliano",
+        closed: "lunedì",
       },
       {
         url: "https://instagram.com/sciueilpaninovesuviano",
@@ -85,7 +86,7 @@ export const places = {
         url: "https://www.instagram.com/panuozzotomegenny/",
         name: "Panuozzo Tomgenny",
         dateAdded: "2024-10-21",
-        menu: "https://online.fliphtml5.com/mxqml/kbvx/#p=1"
+        menu: "https://online.fliphtml5.com/mxqml/kbvx/#p=1",
       },
       {
         url: "https://www.instagram.com/ledueleonesse_pub/",
@@ -100,9 +101,9 @@ export const places = {
       },
       {
         url: "https://www.instagram.com/fronnadestapizzeria/",
-        name:"Fronna d'Està",
-        dateAdded: "2025-08-07"
-      }
+        name: "Fronna d'Està",
+        dateAdded: "2025-08-07",
+      },
     ],
     Somma_Vesuviana: [
       {
@@ -147,7 +148,7 @@ export const places = {
         url: "https://www.instagram.com/theburtonjuice/",
         name: "The Burton Juice",
         dateAdded: "2025-01-03",
-      }
+      },
     ],
     Torre_Annunziata: [
       {
@@ -174,7 +175,7 @@ export const places = {
         name: "O sole mio",
         menu: "https://pwa.pienissimo.com/home?hashform=GOtj595KBt3w7FOYCOUdjsaHIgQvlvwK",
         dateAdded: "2024-10-21",
-      }
+      },
     ],
     Torre_Del_Greco: [
       {
@@ -182,12 +183,12 @@ export const places = {
         name: "Paninoteca da Manuè",
       },
       {
-        url: "https://instagram.com/the_george_best",
+        url: "https://www.instagram.com/the_george_best_pub/",
         name: "The George Best",
       },
       {
-        url: "https://instagram.com/quadratogourmet",
-        menu: "https://www.instagram.com/stories/highlights/17995583698679841/",
+        url: "https://www.instagram.com/quadratopizzeriatorrese/",
+        menu: "https://linktr.ee/QuadratoPizzeriaTorrese",
         name: "Quadrato Gourmet",
       },
       {
@@ -229,8 +230,8 @@ export const places = {
       {
         url: "https://www.instagram.com/lapizzeriamennella/",
         name: "La Pizzeria Mennella",
-        dateAdded: "2024-11-10"
-      }
+        dateAdded: "2024-11-10",
+      },
     ],
     Sant_Anastasia: [
       {
@@ -267,8 +268,8 @@ export const places = {
         url: "https://www.instagram.com/monkeylabfood/",
         name: "Monkey Lab",
         dateAdded: "2024-09-27",
-        menu: "https://www.instagram.com/stories/highlights/18285431554227582/"
-      }
+        menu: "https://www.instagram.com/stories/highlights/18285431554227582/",
+      },
     ],
     Castellammare: [
       {
@@ -305,7 +306,7 @@ export const places = {
         menu: "https://nigrobraceriaevineria.it/",
         name: "Nigro Braceria",
         dateAdded: "2025-01-03",
-      }
+      },
     ],
     San_Marzano: [
       {
@@ -354,7 +355,7 @@ export const places = {
         menu: "https://www.instagram.com/stories/highlights/18057573220492273/",
         name: "Assaje Sapori tradizionali",
         dateAdded: "2024-09-27",
-      }
+      },
     ],
     Nola: [
       {
@@ -439,10 +440,16 @@ export const places = {
       },
       {
         url: "https://www.instagram.com/sfardy_/",
-        name:"Sfardy",
+        name: "Sfardy",
         menu: "https://linktr.ee/sfardy",
-        dateAdded:"2025-08-07",
-      }
+        dateAdded: "2025-08-07",
+      },
+      {
+        url: "https://www.instagram.com/pizzeriazeroottantuno/",
+        name: "Pizzeria 081 AYCE",
+        menu: "https://www.instagram.com/stories/highlights/17875021061840371/",
+        dateAdded: "2026-01-05",
+      },
     ],
     Napoli: [
       {
@@ -562,7 +569,7 @@ export const places = {
         url: "https://www.instagram.com/_toretto_kebab_napoli/",
         name: "Toretto Kebab",
         dateAdded: "2024-08-25",
-        menu: "https://www.menudigitale.io/eqfcu"
+        menu: "https://www.menudigitale.io/eqfcu",
       },
       {
         url: "https://www.instagram.com/ddem.steakhouse/",
@@ -574,7 +581,19 @@ export const places = {
         url: "https://www.instagram.com/pizzaprestige/",
         name: "Pizza Prestige",
         dateAdded: "2025-01-03",
-      }
+      },
+      {
+        url: "https://www.instagram.com/_sexyburger_/",
+        name: "Sexy burger",
+        dateAdded: "2026-01-05",
+        menu: "https://deliveroo.it/it/menu/napoli/centro-storico/sexy-burger-napoli",
+      },
+      {
+        url: "https://www.instagram.com/rinomato_ristoranti/",
+        name: "Rinomato",
+        dateAdded: "2026-01-05",
+        menu: "https://dishcovery.menu/app/restaurants/a9c15140978bc037d7bed7840689c7fc",
+      },
     ],
     San_Vitaliano: [
       {
@@ -624,7 +643,7 @@ export const places = {
         name: "Ristorante Venti punto Zero",
         menu: "https://www.ventipuntozero.it/men%C3%B9",
         dateAdded: "2025-01-03",
-      }
+      },
     ],
     Pompei: [
       {
@@ -689,7 +708,7 @@ export const places = {
         name: "Wolfirish Pub",
         dateAdded: "2024-11-10",
         menu: "https://wolfirishpub.it/panini-classici/",
-      }
+      },
     ],
     Santa_Maria_la_Carità: [
       {
@@ -825,7 +844,7 @@ export const places = {
         name: "Labirroteca Pub",
         dateAdded: "2025-01-30",
         menu: "https://labirroteca.netlify.app/",
-      }
+      },
     ],
     Ercolano: [
       {
@@ -848,7 +867,7 @@ export const places = {
         name: "Lumo's Pub",
         dateAdded: "2024-09-27",
         menu: "https://linktr.ee/lumospub",
-      }
+      },
     ],
     Madonna_Arco: [
       {
@@ -1016,7 +1035,13 @@ export const places = {
         name: "Taverna la matta",
         menu: "https://linktr.ee/tavernalamatta",
         dateAdded: "2024-11-10",
-      }
+      },
+      {
+        url: "https://www.instagram.com/torbirreriacarnivora/",
+        name: "Torb birreria carnivora",
+        dateAdded: "2026-01-05",
+        menu: "https://linktr.ee/torbirreriacarnivora",
+      },
     ],
     Boscotrecase: [
       {
@@ -1129,7 +1154,7 @@ export const places = {
         name: "Kaiser Palazzo Esperienza",
         dateAdded: "2025-01-03",
         menu: "https://drive.google.com/file/d/1g2BAPZFc0dG2MNS2-gC97UOp2xiHZ5Wi/view",
-      }
+      },
     ],
     Cava_Tirreni: [
       {
@@ -1263,6 +1288,11 @@ export const places = {
         name: "Drunken Sailor Birreria",
         dateAdded: "2024-08-06",
       },
+      {
+        url: "https://www.instagram.com/locanera_burgerstation/",
+        name: "L'oca nera burger",
+        menu: "https://www.instagram.com/stories/highlights/17894499548666027/",
+      },
     ],
     Quarto: [
       {
@@ -1286,8 +1316,8 @@ export const places = {
         url: "https://www.instagram.com/pizzeria_antonio_e_manu/",
         name: "Pizzeria Antonio e Manu",
         dateAdded: "2025-01-03",
-        menu: "https://linktr.ee/antonio_e_manu"
-      }
+        menu: "https://linktr.ee/antonio_e_manu",
+      },
     ],
     Marano: [
       {
@@ -1300,6 +1330,13 @@ export const places = {
         name: "I Love Tartare",
         menu: "https://ilovetartare.xmenu.it/landing",
         dateAdded: "2024-07-19",
+      },
+      {
+        url: "https://www.instagram.com/bocadito_soulfood/",
+        name: "Bocadito Soul Food",
+        dateAdded: "2026-01-05",
+        menu: "https://linktr.ee/bocadito_soulfood",
+        closed: "lunedì",
       },
     ],
   },
@@ -1350,10 +1387,10 @@ export const places = {
         dateAdded: "2025-01-03",
       },
       {
-        url:"https://www.instagram.com/ost.izakayabar/",
+        url: "https://www.instagram.com/ost.izakayabar/",
         name: "Izakaya Bar",
         dateAdded: "2026-01-05",
-      }
+      },
     ],
     Torre_Del_Greco: [
       {
@@ -1375,7 +1412,7 @@ export const places = {
         url: "https://www.instagram.com/cafestreet45_tdg/",
         name: "Café Street 45",
         dateAdded: "2024-08-25",
-        menu: "https://linktr.ee/cafestreet45"
+        menu: "https://linktr.ee/cafestreet45",
       },
       {
         url: "https://www.instagram.com/oivida_club/",
@@ -1385,9 +1422,9 @@ export const places = {
       {
         url: "https://www.instagram.com/crossroad_sunrise/",
         name: "Crossroad Sunrise",
-        dateAdded:"2025-08-07",
+        dateAdded: "2025-08-07",
         menu: "https://drive.google.com/file/d/1rM5gTrS-uimiqWff6hLOR7EjoMi3s9PR/view?usp=sharing",
-      }
+      },
     ],
     Sant_Anastasia: [
       {
@@ -1399,14 +1436,14 @@ export const places = {
         url: "https://www.instagram.com/kadaveofficial/",
         name: "Kadave",
         dateAdded: "2024-11-10",
-        menu: "http://www.kadave.it/menu/"
+        menu: "http://www.kadave.it/menu/",
       },
       {
         url: "https://www.instagram.com/sweetbar_santanastasia/",
         name: "Sweet Bar",
         dateAdded: "2024-11-10",
         menu: "https://www.sweetbar.it",
-      }
+      },
     ],
     Scafati: [
       {
@@ -1427,14 +1464,14 @@ export const places = {
       {
         url: "https://www.instagram.com/delirumbarpompei/",
         name: "Delirum",
-        menu: "https://www.oliufficio.com/delirum.html"
+        menu: "https://www.oliufficio.com/delirum.html",
       },
       {
         url: "https://www.instagram.com/sozeneventi/",
         name: "Sozen",
         dateAdded: "2025-01-03",
-        menu: "https://www.thefork.it/ristorante/so-zen-r422569/menu"
-      }
+        menu: "https://www.thefork.it/ristorante/so-zen-r422569/menu",
+      },
     ],
     Castellammare: [
       {
@@ -1460,7 +1497,7 @@ export const places = {
         name: "L'altro posto",
         dateAdded: "2024-10-21",
         menu: "https://drive.google.com/file/d/1rB5QYVZQGFTb-ynArJIgbrgGTVaWsnXI/view",
-      }
+      },
     ],
     Napoli: [
       {
@@ -1491,7 +1528,7 @@ export const places = {
         url: "https://www.instagram.com/bagnoidealnapoli/",
         name: "Bagno ideal Napoli",
         dateAdded: "2024-08-25",
-      }
+      },
     ],
     Palma_Campania: [
       {
@@ -1536,8 +1573,8 @@ export const places = {
         url: "https://www.instagram.com/radicaliliberi_cocktailbar/",
         name: "Radicali liberi",
         dateAdded: "2024-08-25",
-        menu: "https://www.localismart.it/radicaliliberi"
-      }
+        menu: "https://www.localismart.it/radicaliliberi",
+      },
     ],
     Nola: [
       {
@@ -1555,7 +1592,7 @@ export const places = {
         name: "Black Box Lounge Meta",
         dateAdded: "2024-08-25",
         menu: "https://blackboxloungemeta.it/",
-      }
+      },
     ],
     Ercolano: [
       {
@@ -1568,8 +1605,8 @@ export const places = {
         url: "https://www.instagram.com/hops_birraottozerozero56/",
         name: "Hops Birra Ottozerozero56",
         dateAdded: "2024-10-21",
-        menu: "https://linktr.ee/birraottozerozero56"
-      }
+        menu: "https://linktr.ee/birraottozerozero56",
+      },
     ],
     Angri: [
       {
@@ -1584,9 +1621,10 @@ export const places = {
         url: "https://www.instagram.com/magmaretapasbar/",
         name: "Magnare tapapas bar",
         dateAdded: "2025-01-30",
-        menu: "https://linktr.ee/magmaretapasbar"
-      }
-    ]   },
+        menu: "https://linktr.ee/magmaretapasbar",
+      },
+    ],
+  },
   Dolci: {
     Pomigliano: [
       {

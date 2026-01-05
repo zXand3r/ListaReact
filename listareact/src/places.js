@@ -82,11 +82,6 @@ export const places = {
         dateAdded: "2024-05-13",
       },
       {
-        url: "https://www.instagram.com/amore.e.tradizione.ristorante/",
-        name: "Amore e tradizione",
-        dateAdded: "2024-05-16",
-      },
-      {
         url: "https://www.instagram.com/panuozzotomegenny/",
         name: "Panuozzo Tomgenny",
         dateAdded: "2024-10-21",
@@ -136,10 +131,6 @@ export const places = {
         url: "https://www.instagram.com/pasquale9gradi_/",
         menu: "https://menunovegradi.it/",
         name: "9 Gradi",
-      },
-      {
-        url: "https://www.instagram.com/cilloexperiencesommavesuviana/",
-        name: "Cillo Experience",
       },
       {
         url: "https://www.instagram.com/operhaclub/",
@@ -1357,6 +1348,11 @@ export const places = {
         url: "https://www.instagram.com/ildadoloungebar/",
         name: "Il dado Lounge Bar",
         dateAdded: "2025-01-03",
+      },
+      {
+        url:"https://www.instagram.com/ost.izakayabar/",
+        name: "Izakaya Bar",
+        dateAdded: "2026-01-05",
       }
     ],
     Torre_Del_Greco: [
@@ -1414,7 +1410,7 @@ export const places = {
     ],
     Scafati: [
       {
-        url: "https://instagram.com/santamonica_loungebar",
+        url: "https://www.instagram.com/santamonica_experience/",
         name: "Santa Monica",
       },
       {
@@ -1434,7 +1430,7 @@ export const places = {
         menu: "https://www.oliufficio.com/delirum.html"
       },
       {
-        url: "https://www.instagram.com/_sozen__/",
+        url: "https://www.instagram.com/sozeneventi/",
         name: "Sozen",
         dateAdded: "2025-01-03",
         menu: "https://www.thefork.it/ristorante/so-zen-r422569/menu"
@@ -1474,7 +1470,7 @@ export const places = {
         menu: "https://www.instagram.com/stories/highlights/18115051636356164/",
       },
       {
-        url: "https://www.instagram.com/thejungle_napoli/",
+        url: "https://www.instagram.com/thejungle_vomero/",
         name: "The Jungle",
         dateAdded: "2024-06-126",
         menu: "https://thejunglenapoli.it/?lang=it",
@@ -1520,7 +1516,7 @@ export const places = {
     ],
     Caserta: [
       {
-        url: "https://www.instagram.com/beerhouse_caserta/",
+        url: "https://www.instagram.com/beerhouse.caserta.official/",
         name: "Beerhouse Caserta",
         dateAdded: "2024-06-27",
       },

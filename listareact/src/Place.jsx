@@ -38,6 +38,10 @@ export function Place({ place }) {
     };
   }, [placeRef]);
 
+  function formatDate(dateString) {
+    return new Date(dateString).toLocaleDateString("it-IT");
+  }
+
   return (
     <li
       translate="no"
@@ -67,6 +71,7 @@ export function Place({ place }) {
           Not Available
         </button>
       )}
+      {place.dateAdded && <p style={{fontSize: "10px", opacity: "0.3", fontStyle:"italic"}}>aggiunto il: {formatDate(place.dateAdded)}</p>}
     </li>
   );
 }

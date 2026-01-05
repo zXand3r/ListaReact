@@ -57,6 +57,7 @@ export function Place({ place }) {
         <h3 className="name">{place.name}</h3>
         {isNew && <span className="newLabel">New</span>}
       </a>
+      {place.dateAdded && <p style={{fontSize: "10px", opacity: "0.3", fontStyle:"italic", marginTop: "-2.5em"}}>aggiunto il: {formatDate(place.dateAdded)}</p>}
       {place.menu ? (
         <a
           href={place.menuImage ? place.menuImage : place.menu}
@@ -71,7 +72,7 @@ export function Place({ place }) {
           Not Available
         </button>
       )}
-      {place.dateAdded && <p style={{fontSize: "10px", opacity: "0.3", fontStyle:"italic"}}>aggiunto il: {formatDate(place.dateAdded)}</p>}
+      
     </li>
   );
 }

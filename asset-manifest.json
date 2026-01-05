@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ListaReact/static/css/main.ddcbc155.css",
-    "main.js": "/ListaReact/static/js/main.57707cad.js",
+    "main.css": "/ListaReact/static/css/main.f908c647.css",
+    "main.js": "/ListaReact/static/js/main.87a51f19.js",
     "static/js/453.79a67ab0.chunk.js": "/ListaReact/static/js/453.79a67ab0.chunk.js",
     "static/media/Soldout_menu.jpeg": "/ListaReact/static/media/Soldout_menu.29e9b99ca509585aa8db.jpeg",
     "static/media/whatsapp.svg": "/ListaReact/static/media/whatsapp.defb3f16e37a8ddd7ea9f7ae4a40fa54.svg",
     "index.html": "/ListaReact/index.html",
-    "main.ddcbc155.css.map": "/ListaReact/static/css/main.ddcbc155.css.map",
-    "main.57707cad.js.map": "/ListaReact/static/js/main.57707cad.js.map",
+    "main.f908c647.css.map": "/ListaReact/static/css/main.f908c647.css.map",
+    "main.87a51f19.js.map": "/ListaReact/static/js/main.87a51f19.js.map",
     "453.79a67ab0.chunk.js.map": "/ListaReact/static/js/453.79a67ab0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddcbc155.css",
-    "static/js/main.57707cad.js"
+    "static/css/main.f908c647.css",
+    "static/js/main.87a51f19.js"
   ]
 }
